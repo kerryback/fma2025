@@ -343,6 +343,27 @@
     "text": "fma2025.kerryback.com"
   },
   {
+    "objectID": "index.html#what-the-future-holds-cnbc-9302025",
+    "href": "index.html#what-the-future-holds-cnbc-9302025",
+    "title": "Incorporating AI into Teaching",
+    "section": "What the Future Holds (CNBC, 9/30/2025)",
+    "text": "What the Future Holds (CNBC, 9/30/2025)\n\nDerek Waldron, JPMorgan chief analytics officer:\n\nThe broad vision that we’re working towards is one where the JPMorgan Chase of the future is going to be a fully AI-connected enterprise.\n\n\n\nEvery employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "Waldron gave [JPMorgan LLM Suite] a prompt:\n\nYou are a technology banker at JPMorgan Chase preparing for a meeting with the CEO and CFO of Nvidia. Prepare a five-page presentation that includes the latest news, earnings and a peer comparison.\n\n\n LLM Suite created a credible-looking PowerPoint deck in about 30 seconds. Waldron:\n\nYou can imagine in the past how that would have been done; we would’ve had teams of investment banking analysts working long hours at night to do this."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "Waldron:\n\nYou can imagine in the past how that would have been done; we would’ve had teams of investment banking analysts working long hours at night to do this.\n\n\nFrom chat to agents\n\nJPMorgan is now early in the next phase of its AI blueprint: It has begun deploying agentic AI to handle complex multistep tasks for employees, according to an internal road map provided by the bank."
+  },
+  {
     "objectID": "index.html#life-was-the-same-for-40-years",
     "href": "index.html#life-was-the-same-for-40-years",
     "title": "Incorporating AI into Teaching",
@@ -368,14 +389,21 @@
     "href": "index.html#plan",
     "title": "Incorporating AI into Teaching",
     "section": "Plan",
-    "text": "Plan\n\nExample of what AI can do today - new Claude skill from September\nHistorical analogues?\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+    "text": "Plan\n  1. A course on AI  2. Previous disruptive technologies  3. Updating existing courses for AI  4. Deep dive into Claude Code"
   },
   {
     "objectID": "index.html#example-prompt-for-claude",
     "href": "index.html#example-prompt-for-claude",
     "title": "Incorporating AI into Teaching",
     "section": "1. Example (prompt for Claude)",
-    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
+    "text": "1. Example (prompt for Claude)\n\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
+  },
+  {
+    "objectID": "index.html#microsoft-vibe-working-powered-by-anthropic",
+    "href": "index.html#microsoft-vibe-working-powered-by-anthropic",
+    "title": "Incorporating AI into Teaching",
+    "section": "Microsoft Vibe Working (powered by Anthropic)",
+    "text": "Microsoft Vibe Working (powered by Anthropic)"
   },
   {
     "objectID": "index.html#historical-analogues",
@@ -410,28 +438,28 @@
     "href": "index.html#what-about-ai",
     "title": "Incorporating AI into Teaching",
     "section": "What about AI?",
-    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\nLike primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed"
+    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\n Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed"
   },
   {
     "objectID": "index.html#ai-is-used-in-business",
     "href": "index.html#ai-is-used-in-business",
     "title": "Incorporating AI into Teaching",
     "section": "AI is used in Business",
-    "text": "AI is used in Business\nMIT/Media Labs State of AI in Business 2025:\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
+    "text": "AI is used in Business\n MIT/Media Labs State of AI in Business 2025:\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
   },
   {
     "objectID": "index.html#plan-1",
     "href": "index.html#plan-1",
     "title": "Incorporating AI into Teaching",
     "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n\n\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+    "text": "Plan\n 1. A course on AI  2. Previous disruptive technologies  3. Updating existing courses for AI  4. Deep dive into Claude Code"
   },
   {
     "objectID": "index.html#course-on-ai-principles",
     "href": "index.html#course-on-ai-principles",
     "title": "Incorporating AI into Teaching",
     "section": "3. Course on AI: principles",
-    "text": "3. Course on AI: principles\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nVibe code financial analyses: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\nCreate apps: For critical operations, test code and save as app\nCreate custom chatbots:&lt;&gt; Chatbots can be customized through the system prompt, RAG, or fine tuning\nCreate tools: To use chatbot for critical operations, create app and provide as tool"
+    "text": "3. Course on AI: principles\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nVibe code financial analyses: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\nCreate apps: For critical operations, test code and save as app\nCreate custom chatbots:&lt;&gt; Chatbots can be customized through the system prompt, RAG, or fine tuning\nCreate agents: To use chatbot for critical operations, create app and provide as tool"
   },
   {
     "objectID": "index.html#prompt-engineering",
@@ -501,21 +529,21 @@
     "href": "index.html#chatbot-is-an-app-consisting-of",
     "title": "Incorporating AI into Teaching",
     "section": "chatbot is an app consisting of",
-    "text": "chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM, which has possibly been fine-tuned\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
+    "text": "chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
   },
   {
     "objectID": "index.html#system-prompt-is-fundamental",
     "href": "index.html#system-prompt-is-fundamental",
     "title": "Incorporating AI into Teaching",
     "section": "System prompt is fundamental",
-    "text": "System prompt is fundamental\n\nA system prompt is text that is sent to the LLM along with each user prompt.\nIt contains information and instructions for the LLM.\n\nAnthropic’s System Prompts"
+    "text": "System prompt is fundamental\n\nA system prompt is text that is sent to the LLM along with each user prompt.  It contains information and instructions for the LLM.\n\nAnthropic’s System Prompts"
   },
   {
     "objectID": "index.html#rag-retrieval-augmented-generation-chatbots",
     "href": "index.html#rag-retrieval-augmented-generation-chatbots",
     "title": "Incorporating AI into Teaching",
     "section": "RAG (Retrieval Augmented Generation) chatbots",
-    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nSend stored chunks of documents to LLM along with prompt and system prompt\nChoose chunks most relevant to the prompt\n\nVector embedding (vector store)\nSimilarity search\n\nKey element of many corporate AI implementations"
+    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nSend stored chunks of documents to LLM along with prompt and system prompt\nChoose chunks most relevant to the prompt\n\nVector embedding (vector store)\nSimilarity search\n\nKey element of many corporate AI implementations\nGoogle’s Notebook LM (now in Canvas) uses RAG"
   },
   {
     "objectID": "index.html#chatbot-structure",
@@ -599,7 +627,7 @@
     "href": "index.html#plan-2",
     "title": "Incorporating AI into Teaching",
     "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n\n\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+    "text": "Plan\n 1. A course on AI  2. Previous disruptive technologies   3. Updating existing courses for AI  4. Deep dive into Claude Code"
   },
   {
     "objectID": "index.html#updating-existing-courses-what-we-should-teach",
@@ -634,7 +662,7 @@
     "href": "index.html#plan-3",
     "title": "Incorporating AI into Teaching",
     "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n✓ Updating existing courses to use AI\n\n\nDeep dive into Claude Code"
+    "text": "Plan\n 1. A course on AI  2. Previous disruptive technologies  3. Updating existing courses for AI   4. Deep dive into Claude Code"
   },
   {
     "objectID": "index.html#claude-code",
@@ -684,5 +712,117 @@
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "fma2025.kerryback.com"
+  },
+  {
+    "objectID": "index.html#from-chat-to-agents",
+    "href": "index.html#from-chat-to-agents",
+    "title": "Incorporating AI into Teaching",
+    "section": "From chat to agents",
+    "text": "From chat to agents\n\nJPMorgan laid the groundwork for this starting in 2023, when it gave employees access to OpenA’’s models through LLM Suite; it was essentially a corporate ChatGPT tool used to draft emails and summarize documents.\n\n\n\nAbout 250,000 JPMorgan employees have access to the platform today … said Waldron. Half of them use it roughly every day, he said.\n\n\n\n\nJPMorgan is now early in the next phase of its AI blueprint: It has begun deploying agentic AI to handle complex multistep tasks for employees, according to an internal road map provided by the bank."
+  },
+  {
+    "objectID": "index.html#course-messages",
+    "href": "index.html#course-messages",
+    "title": "Incorporating AI into Teaching",
+    "section": "Course Messages",
+    "text": "Course Messages\n\nChatting\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nCoding: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\n\nBuilding stuff:\n\nApps: Encapsulate tested code in an app\nCustom chatbots: Chatbots can be customized through the system prompt, RAG, or fine tuning\nAgents: Agents are chatbots equipped with tools"
+  },
+  {
+    "objectID": "index.html#teaching-methods",
+    "href": "index.html#teaching-methods",
+    "title": "Incorporating AI into Teaching",
+    "section": "Teaching methods",
+    "text": "Teaching methods\n\nCase: Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\nFinancial analysis by vibe coding\nBuild apps, custom chatbots, agents\nIn-class demos, group projects"
+  },
+  {
+    "objectID": "index.html#ai-plumbing",
+    "href": "index.html#ai-plumbing",
+    "title": "Incorporating AI into Teaching",
+    "section": "AI Plumbing",
+    "text": "AI Plumbing\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
+  },
+  {
+    "objectID": "index.html#why-teach-the-plumbing",
+    "href": "index.html#why-teach-the-plumbing",
+    "title": "Incorporating AI into Teaching",
+    "section": "Why teach the plumbing?",
+    "text": "Why teach the plumbing?\n\nMay be useful to have some perspective on how things fit together\nMay be valuable for students to be plumbers if they end up at small firms\nExamples provide another teaching opportunity for core financial analysis\nChecks a box for recruiters"
+  },
+  {
+    "objectID": "index.html#demo",
+    "href": "index.html#demo",
+    "title": "Incorporating AI into Teaching",
+    "section": "Demo",
+    "text": "Demo\n\nPrompt Claude:\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
+  },
+  {
+    "objectID": "index.html#some-tools",
+    "href": "index.html#some-tools",
+    "title": "Incorporating AI into Teaching",
+    "section": "Some tools",
+    "text": "Some tools\n\nChatbots that code: ChatGPT, Gemini, Claude, Julius.ai\nPython environments with AI assistance: Google Colab, VS Code with Copilot, Cursor, Windsurf\nAll-in-one vibe coder and host: Replit\nNo-code option: OpenAI CustomGPTs\nMy current choice: Claude Desktop (python in cloud) and Claude Code (local python)"
+  },
+  {
+    "objectID": "index.html#b.-ai-coding",
+    "href": "index.html#b.-ai-coding",
+    "title": "Incorporating AI into Teaching",
+    "section": "B. AI Coding",
+    "text": "B. AI Coding\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "index.html#ai-coding",
+    "href": "index.html#ai-coding",
+    "title": "Incorporating AI into Teaching",
+    "section": "AI Coding",
+    "text": "AI Coding\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "index.html#mitmedia-labs-state-of-ai-in-business-2025",
+    "href": "index.html#mitmedia-labs-state-of-ai-in-business-2025",
+    "title": "Incorporating AI into Teaching",
+    "section": "MIT/Media Labs State of AI in Business 2025",
+    "text": "MIT/Media Labs State of AI in Business 2025\n\n\nOnly 5% of AI pilots reach production.\n\n\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
+  },
+  {
+    "objectID": "index.html#chat.derivative-securities.org",
+    "href": "index.html#chat.derivative-securities.org",
+    "title": "Incorporating AI into Teaching",
+    "section": "chat.derivative-securities.org",
+    "text": "chat.derivative-securities.org"
+  },
+  {
+    "objectID": "index.html#handheld-calculators",
+    "href": "index.html#handheld-calculators",
+    "title": "Incorporating AI into Teaching",
+    "section": "Handheld Calculators",
+    "text": "Handheld Calculators\n\nMuch worry that students wouldn’t learn addition, subtraction, …\n\nStudies haven’t found an effect\nBut primary schools still provide practice and assessments in which calculators are not allowed\n\nSome hoped that schools could move beyond calculation and teach deeper math\n\nThat didn’t seem to happen either"
+  },
+  {
+    "objectID": "index.html#data-portal.rice-business.org",
+    "href": "index.html#data-portal.rice-business.org",
+    "title": "Incorporating AI into Teaching",
+    "section": "data-portal.rice-business.org",
+    "text": "data-portal.rice-business.org"
+  },
+  {
+    "objectID": "index.html#what-should-we-teach",
+    "href": "index.html#what-should-we-teach",
+    "title": "Incorporating AI into Teaching",
+    "section": "What should we teach?",
+    "text": "What should we teach?\n\nWe generally teach concepts first with slides (or board)\nThen show in tools (usually Excel)\nNow, there is a next step: chatbots and agents\n\n\n\nTeach about implementation in Excel \\(\\rightarrow\\) students build Excel models.\nTeach about implementation in AI \\(\\rightarrow\\) students have chats or build apps"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "genai4finance.kerryback.com"
+  },
+  {
+    "objectID": "index.html#adding-a-tool-to-claude-desktop",
+    "href": "index.html#adding-a-tool-to-claude-desktop",
+    "title": "Incorporating AI into Teaching",
+    "section": "Adding a tool to Claude Desktop",
+    "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP)"
   }
 ]

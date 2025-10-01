@@ -1,3 +1,8 @@
+/* Global font size adjustment */
+.reveal {
+  font-size: 36px !important;
+}
+
 /* Reduce paragraph spacing in light mode to match dark mode */
 .reveal p {
   margin-bottom: 0.5em !important;

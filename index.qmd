@@ -11,6 +11,75 @@ format:
     self-contained: true
 ---
 
+## What the Future Holds (CNBC, 9/30/2025)
+
+<br>
+
+
+Derek Waldron, JPMorgan chief analytics officer:
+
+::: {.quote-box}
+The broad vision that we're working towards is one where the JPMorgan Chase of the future is going to be a fully AI-connected enterprise.
+:::
+
+<br>
+
+::: {.quote-box}
+Every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.
+:::
+
+## 
+
+Waldron gave [JPMorgan LLM Suite] a prompt:
+
+::: {.quote-box}
+You are a technology banker at JPMorgan Chase preparing for a meeting with the CEO and CFO of Nvidia. Prepare a five-page presentation that includes the latest news, earnings and a peer comparison.
+:::
+
+::: {.fragment}
+<br>
+LLM Suite created a credible-looking PowerPoint deck in about 30 seconds. Waldron:
+
+::: {.quote-box}
+You can imagine in the past how that would have been done; we would've had teams of investment banking analysts working long hours at night to do this.
+:::
+
+::: 
+
+## From chat to agents
+
+::: {.quote-box}
+JPMorgan laid the groundwork for this starting in 2023, when it gave employees access to OpenA'’s models through LLM Suite; it was essentially a corporate ChatGPT tool used to draft emails and summarize documents.
+:::
+<br>
+
+::: {.quote-box}
+About 250,000 JPMorgan employees have access to the platform today ... said Waldron. Half of them use it roughly every day, he said.
+:::
+
+<br>
+
+::: {.fragment}
+::: {.quote-box}
+JPMorgan is now early in the next phase of its AI blueprint: It has begun deploying agentic AI to handle complex multistep tasks for employees, according to an internal road map provided by the bank.
+:::
+:::
+
+## MIT/Media Labs State of AI in Business 2025
+
+<br>
+
+::: {.quote-box}
+Only 5% of AI pilots reach production.
+:::
+
+<br>
+
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
+
 ## Life was the same for 40 years
 
 :::: {.columns}
@@ -64,106 +133,59 @@ Microsoft Excel introduced for Windows in 1987
 
 
 ## Plan 
+<br>
+<span class="highlight">
+1. A course on AI</span>
+<br>
+2. Previous disruptive technologies
+<br>
+3. Updating existing courses for AI
+<br>
+4. Deep dive into Claude Code
 
-1. Example of what AI can do today - new Claude skill from September
-2. Historical analogues?
-3. A course on AI
-4. Updating existing courses to use AI
-5. Deep dive into Claude Code
 
-## 1. Example (prompt for Claude)
 
-::: {.quote-box}
-Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
-:::
-::: {.quote-box}
-Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
-:::
+## Course Messages
 
-::: {style="font-size: 0.9em; margin-top: 30px;"}
-*Currently requires Claude Max subscription.*
-:::
+- Chatting 
+  - <span class="highlight">Treat AI as a colleague:</span> Collaborate, evaluate, iterate
+  - <span class="highlight">Coding:</span> LLMs are not trustworthy for arithmetic: Coding (Python) is essential
 
-## 2. Historical analogues
+- Building stuff:
+  - <span class="highlight">Apps:</span> Encapsulate tested code in an app
+  - <span class="highlight">Custom chatbots:</span> Chatbots can be customized through the system prompt, RAG, or fine tuning
+  - <span class="highlight">Agents:</span> Agents are chatbots equipped with tools
 
-1. Handheld calculators
-2. Personal computers
+## Teaching methods 
 
-::: {.quote-box}
-How did teaching and learning change? Are there lessons for today?
-:::
+- Case: [Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
+- Financial analysis by vibe coding
+- Build apps, custom chatbots, agents
+- In-class demos, group projects
 
-## Introduction of Handheld Calculators
+## AI Plumbing
 
-- Much worry that students wouldn't learn addition, subtraction, ... 
-   - Studies haven't found an effect 
-   - But primary schools still provide practice and assessments in which calculators are not allowed
-- Some hoped that schools could move beyond calculation and teach deeper math 
-  - That didn't seem to happen either
-
-## Introduction of Personal computers & spreadsheets
-
-1. We added courses on how to use spreadsheets 
-2. We updated existing courses to use spreadsheets
-3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
-
-::: {.fragment}
->Teaching how to do finance in spreadsheets is a main goal.
+:::: {.columns}
+::: {.column width="70%"}
+![](images/ai_learning_progression.png){style="max-height: 500px; width: auto;"}
 :::
 
-## Why?
-
-- Spreadsheets are used in business
-- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
-- Spreadsheets don't automatically do the things we were teaching before (financial calculators $\rightarrow$ spreadsheets)
-
-## What about AI?
-
-✓ AI is used in business
-
-✓ AI is useful for teaching/tutoring
-
-✗ AI can automatically do many things we were teaching before
-
-::: {.fragment}
-::: {.quote-box}
-AI is more like calculators than spreadsheets.  We worry that students won't learn skills that they need.  
-
-Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed
+::: {.column width="30%"}
+::: {style="font-size: 0.9em;"}
+- Apps can use AI
+- Chatbots are apps
+- Agents are chatbots with tools
 :::
 :::
+::::
 
-## AI is used in Business
+## Why teach the plumbing?
 
-MIT/Media Labs State of AI in Business 2025:
+- May be useful to have some perspective on how things fit together 
+- May be valuable for students to be plumbers if they end up at small firms 
+- Examples provide another teaching opportunity for core financial analysis
+- Checks a box for recruiters
 
-::: {.quote-box}
-Workers from over 90% of the companies we surveyed reported regular use of
-personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
-:::
- 
-## Plan 
-
-✓ Example of what AI can do today
-
-✓ Historical analogues
-
-::: {.quote-box}
-3. A course on AI
-
-4. Updating existing courses to use AI
-
-5. Deep dive into Claude Code
-:::
-
-## 3. Course on AI: principles
-
-
-- <span class="highlight">Treat AI as a colleague:</span> Collaborate, evaluate, iterate
-- <span class="highlight">Vibe code financial analyses: LLMs are not trustworthy for arithmetic:</span> Coding (Python) is essential
-- <span class="highlight">Create apps:</span> For critical operations, test code and save as app
-- <span class="hightlight">Create custom chatbots:<\span> Chatbots can be customized through the system prompt, RAG, or fine tuning
-- <span class="highlight">Create tools:</span> To use chatbot for critical operations, create app and provide as tool
 
 ## Prompt Engineering
 
@@ -176,39 +198,7 @@ Ethan Mollick, Wharton, "Good Enough Prompting:"
 Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at ... Working with AI is a dialogue, not an order.
 :::
 
-## Course structure 
-
-A. Introduction
-
-B. Coding with AI 
-
-C. Apps, Chatbots, and Agents
-
-## A. Course Introduction
-
-- Example of working with AI on valuation: Claude/Excel example
-- Case on corporate implementation of AI 
-
-## Example of working with AI 
-
-::: {.quote-box}
-Claude/Excel example
-:::
-
-- Explain the calculations 
-- What did you assume for ... and why?
-- How does the value change if we assume ... instead?
-
-
-
-## Case on corporate implementation
-
-[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
-
-- Describes creation of a custom chatbot
-- Discusses reliability, bias, compliance, data privacy, trust of customers
-
-## B. Coding with AI
+## AI Coding
 
 In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
 
@@ -225,40 +215,57 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 :::
 ::::
 
-## Vibe coding for finance
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
 
-- Chatbots with python can easily do many types of financial analyses: regression, mean-variance optimization, binomial-tree option valuation ...
-- Running python in the cloud:
-  - ChatGPT, Claude, Google Colab with Gemini, Julius.ai
-- Running python locally:
-  - VS Code, Cursor, Windsurf, Claude Code 
-
-## C. Apps, Chatbots, and Agents
-
-
-:::: {.columns}
-::: {.column width="70%"}
-![](images/ai_learning_progression.png){style="max-height: 500px; width: auto;"}
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
 :::
-
-::: {.column width="30%"}
-::: {style="font-size: 0.8em;"}
-- Apps can use AI
-- Chatbots are apps
-- Agents are chatbots with tools
+::: {.quote-box}
+Claude powered the first versions of our <span class="highlight">Investment Analyst Assistant</span>, which streamlined our analysts' workflow by <span class="highlight">generating Python code</span>, creating data visualizations, and iterating through <span class="highlight"> complex financial analysis tasks with the precision of a junior analyst</span>.
 :::
 :::
-::::
 
-## Building apps, chatbots, and agents 
+## Some tools
 
-- Point and click to build Custom GPTs at chat.openai.com 
-- Vibe code 
+- Chatbots that code: ChatGPT, Gemini, Claude, Julius.ai 
+- Python environments with AI assistance: Google Colab, VS Code with Copilot, Cursor, Windsurf
+- All-in-one vibe coder and host: Replit 
+- No-code option: OpenAI CustomGPTs
+- My current choice: Claude Desktop (python in cloud) and Claude Code (local python)
+
+## Demo
+
+<br>
+
+Prompt Claude:
+
+::: {.quote-box}
+Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
+:::
+
+::: {.quote-box}
+Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
+:::
+
+::: {style="font-size: 0.9em; margin-top: 30px;"}
+*Currently requires Claude Max subscription.*
+:::
+
+
+## Microsoft Vibe Working (powered by Anthropic)
+
+<br>
+
+<video width="100%" height="500" controls>
+  <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
+</video>
+
 
 ## chatbot is an app consisting of
 
 - User interface
-- API connection to an LLM, which has possibly been fine-tuned
+- API connection to an LLM
 - System prompt
 - Possible retrieval of documents
 - Possible use of tools
@@ -267,7 +274,7 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 
 ::: {.quote-box}
 A system prompt is text that is sent to the LLM along with each user prompt. 
-
+<br>
 It contains information and instructions for the LLM.
 :::
 
@@ -280,10 +287,11 @@ It contains information and instructions for the LLM.
   - Vector embedding (vector store)
   - Similarity search
 - Key element of many corporate AI implementations
+- Google's Notebook LM (now in Canvas) uses RAG
 
-## Chatbot structure
+## chat.derivative-securities.org
 
-![](images/chatbot.png){style="max-height: 500px; width: auto;"}
+<iframe src="https://chat.derivative-securities.org" width="100%" height="550" style="border:1px solid #ccc;" allow="*" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"></iframe>
 
 
 
@@ -334,6 +342,10 @@ Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA ty
 :::
 :::
 
+
+## Chatbot structure
+
+![](images/chatbot.png){style="max-height: 500px; width: auto;"}
 
 
 ## database agent passes prompt from user to LLM
@@ -388,60 +400,89 @@ May require chatting at this stage to clarify user's request
 :::
 ::::
 
-
-## What can we do in the classroom?
-
-- We can show students how to vibe code apps to automate things 
-  - Getting data
-  - Financial analysis
-  - Getting written analysis from AI 
-  - Producing Excel, Word, PowerPoint
-- And convert app to chatbot tool
-
-## Tools
-
-- Point and click: ChatGPT's Custom GPTs
-- Simplest vibe coding environment: Replit
-- Julius.ai can build but not run Streamlit apps
-- Google Colab can build  Streamlit apps and deploy via ngrok
-- Permanent deployment: Koyeb, Render, ...
-
-::: {.fragment}
-::: {.quote-box}
-How do we learn this stuff to teach it: Ask AI
-:::
-:::
+## data-portal.rice-business.org 
 
 
 ## Creating openai custom gpt (No Code)
 
-- **Configure**: Name, description, and system prompt
-- **Add capabilities**: Web browsing, DALL-E, Code Interpreter
-- **Upload knowledge**: Documents for RAG (PDFs, text files)
-- **Add actions**: Connect to external APIs (optional)
-- **Test & publish**: Private, link-only, or public to GPT Store
+- <span class="highlight">Configure</span>: Name, description, and system prompt
+- <span class="highlight">Add capabilities</span>: Web browsing, DALL-E, Code Interpreter
+- <span class="highlight">Upload knowledge</span>: Documents for RAG (PDFs, text files)
+- <span class="highlight">Add actions</span>: Connect to external APIs (optional)
+- <span class="highlight">Test & publish</span>: Private, link-only, or public to GPT Store
 
 
 ::: {style="font-size: 0.9em; margin-top: 30px;"}
 *Requires ChatGPT Plus subscription*
 :::
 
+
 ## Plan 
+<br>
+1. A course on AI
+<br>
+<span class="highlight">2. Previous disruptive technologies</span>
+<br>
+3. Updating existing courses for AI
+<br>
+4. Deep dive into Claude Code
 
-✓ Example of what AI can do today 
+## Handheld Calculators
 
-✓ Historical analogues
+- Much worry that students wouldn't learn addition, subtraction, ... 
+   - Studies haven't found an effect 
+   - But primary schools still provide practice and assessments in which calculators are not allowed
+- Some hoped that schools could move beyond calculation and teach deeper math 
+  - That didn't seem to happen either
 
-✓ A course on AI
+## Introduction of Personal computers & spreadsheets
 
+1. We added courses on how to use spreadsheets 
+2. We updated existing courses to use spreadsheets
+3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
+
+::: {.fragment}
+>Teaching how to do finance in spreadsheets is a main goal.
+:::
+
+## Why?
+
+- Spreadsheets are used in business
+- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
+- Spreadsheets don't automatically do the things we were teaching before (financial calculators $\rightarrow$ spreadsheets)
+
+## What about AI?
+
+✓ AI is used in business
+
+✓ AI is useful for teaching/tutoring
+
+✗ AI can automatically do many things we were teaching before
+
+<br>
+
+::: {.fragment}
 ::: {.quote-box}
-4. Updating existing courses to use AI
-
-5. Deep dive into Claude Code
+AI is more like calculators than spreadsheets.  We worry that students won't learn skills that they need.  
+<br>
+Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed
+:::
 :::
 
 
-## 4. Updating existing courses: what we should teach 
+## Plan 
+<br>
+1. A course on AI
+<br>
+2. Previous disruptive technologies
+<br>
+<span class="highlight">
+3. Updating existing courses for AI</span>
+<br>
+4. Deep dive into Claude Code
+
+
+## What should we teach?
 
 - We generally teach concepts first with slides (or board)
 - Then show in tools (usually Excel)
@@ -451,7 +492,21 @@ How do we learn this stuff to teach it: Ask AI
 ::: {.quote-box}
 Teach about implementation in Excel $\rightarrow$ students build Excel models.
 
-Teach about implementation in AI $\rightarrow$ students build prompts or apps
+Teach about implementation in AI $\rightarrow$ students have chats or build apps
+:::
+:::
+
+## Yeyati, Brookings, 2025:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
+:::
+::: {.quote-box}
+As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
+:::
+::: {.quote-box}
+But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>.
 :::
 :::
 
@@ -488,18 +543,15 @@ But this is probably unnecessary for most topics.  The LLMs are much, much more 
 
 
 ## Plan 
-
-✓ Example of what AI can do today 
-
-✓ Historical analogues
-
-✓ A course on AI
-
-✓ Updating existing courses to use AI
-
-::: {.quote-box}
-5. Deep dive into Claude Code
-:::
+<br>
+1. A course on AI
+<br>
+2. Previous disruptive technologies
+<br>
+3. Updating existing courses for AI
+<br>
+<span class="highlight">
+4. Deep dive into Claude Code</span>
 
 
 
@@ -542,40 +594,30 @@ Then: show the code that calculates the tangency portfolio and explain it.
   - Make these global edits ...
   - Do this analysis and generate a figure or LaTeX table and insert it into the document ... 
 
-## Aaron Linsky, CTO, AIA Labs at Bridgewater:
-
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-We've been developing capabilities powered by Claude since 2023 within AIA Labs.
-:::
-::: {.quote-box}
-Claude powered the first versions of our <span class="highlight">Investment Analyst Assistant</span>, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through <span class="highlight"> complex financial analysis tasks with the precision of a junior analyst</span>.
-:::
-:::
 
 
-## Yeyati, Brookings, 2025:
 
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
-:::
-::: {.quote-box}
-As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
-:::
-::: {.quote-box}
-But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>.
-:::
-:::
 
-## {#final-slide}
+##
+
+<video width="100%" height="100%" controls style="max-height: 90vh; object-fit: contain;">
+  <source src="columbo_final.webm" type="video/webm">
+</video>
+
+## Adding a tool to Claude Desktop
+
+- Anthropic created Model Context Protocol (MCP) 
+
+
+##
 
 ::: {style="text-align: center; margin-top: 100px;"}
-![](images/qr_code_slides16x9.png){style="max-height: 400px; width: auto;"}
+![](images/genai4finance_qr.png){style="max-height: 500px; width: auto;"}
 :::
 ::: {style="font-size: 1.2em; text-align: center; margin-top: 30px;"}
-[fma2025.kerryback.com](https://fma2025.kerryback.com)
+[genai4finance.kerryback.com](https://genai4finance.kerryback.com)
 :::
+
 
 
 
