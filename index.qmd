@@ -96,16 +96,14 @@ Microsoft Excel introduced for Windows in 1987
 
 ## It's hard to keep up!
 
-::: {.fragment data-fragment-index="0"}
-::: {style="text-align: center; margin-top: 50px; position: relative; height: 500px;"}
-::: {.fade-out data-fragment-index="1"}
+::: {style="text-align: center; margin-top: 50px;"}
 ![](images/coyote11.png){style="max-height:500px; width: auto;"}
 :::
 
-::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
-![](images/coyote21.png){style="max-height: 500px; width: auto;"}
-:::
-:::
+## This is me
+
+::: {style="text-align: center; margin-top: 50px;"}
+![](images/coyote21.png){style="max-height:500px; width: auto;"}
 :::
 
 
@@ -140,28 +138,7 @@ Microsoft Excel introduced for Windows in 1987
 - Build apps, custom chatbots, agents
 - In-class demos, group projects
 
-## AI Plumbing
 
-:::: {.columns}
-::: {.column width="70%"}
-![](images/ai_learning_progression.png){style="max-height: 500px; width: auto;"}
-:::
-
-::: {.column width="30%"}
-::: {style="font-size: 0.9em;"}
-- Apps can use AI
-- Chatbots are apps
-- Agents are chatbots with tools
-:::
-:::
-::::
-
-## Why teach the plumbing?
-
-- May be useful to have some perspective on how things fit together 
-- May be valuable for students to be plumbers if they end up at small firms 
-- Examples provide another teaching opportunity for core financial analysis
-- Checks a box for recruiters
 
 
 ## Prompt Engineering
@@ -249,6 +226,8 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 
 ## AI Plumbing
 
+<br>
+
 :::: {.columns}
 ::: {.column width="70%"}
 ![](images/ai_learning_progression.png){style="max-height: 500px; width: auto;"}
@@ -262,6 +241,13 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 :::
 :::
 ::::
+
+## Why teach the plumbing?
+
+- May be useful to have some perspective on how things fit together 
+- May be valuable for students to be plumbers if they end up at small firms 
+- Examples provide another teaching opportunity for core financial analysis
+- May check a box for recruiters
 
 ## chatbot is an app consisting of
 
@@ -283,7 +269,7 @@ A system prompt is text that is sent to the LLM along with each user prompt.
 It contains information and instructions for the LLM.
 :::
 
-::: {style="text-align: center; margin-top: 100px; font-size: 1.2em;"}
+::: {style="text-align: center; margin-top: 150px; font-size: 1.2em;"}
 [Anthropic's System Prompts](https://docs.claude.com/en/release-notes/system-prompts#august-5-2025)
 :::
 
@@ -298,7 +284,7 @@ It contains information and instructions for the LLM.
 ## A vibe-coded chatbot
 
 ::: {style="text-align: center; margin-top: 150px;"}
-::: {style="font-size: 1.4em;"}
+::: {style="font-size: 1.2em;"}
 [chat.derivative-securities.org](https://chat.derivative-securities.org)
 :::
 :::
@@ -306,7 +292,9 @@ It contains information and instructions for the LLM.
 
 
 
-## {background-iframe="https://chat.derivative-securities.org" background-interactive=true}
+##
+
+<iframe src="https://chat.derivative-securities.org" style="width: 100%; height: 80vh; border: none; margin: 0;"></iframe>
 
 
 
@@ -364,10 +352,13 @@ Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA ty
 
 ## Chatbot structure
 
+<br>
 ![](images/chatbot.png){style="max-height: 500px; width: auto;"}
 
 
 ## database agent passes prompt from user to LLM
+
+<br>
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -383,6 +374,8 @@ May require chatting at this stage to clarify user's request
 
 ## agent passes SQL from LLM to data warehouse
 
+<br>
+
 :::: {.columns}
 ::: {.column width="60%"}
 ![](images/agent_v2.png){style="max-height: 500px; width: auto;"}
@@ -392,6 +385,8 @@ May require chatting at this stage to clarify user's request
 ::::
 
 ## Data Warehouse passes response to agent
+
+<br>
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -408,6 +403,8 @@ May require chatting at this stage to clarify user's request
 
 ## agent passes data from warehouse to user
 
+<br>
+
 :::: {.columns}
 ::: {.column width="60%"}
 ![](images/agent_v4.png){style="max-height: 500px; width: auto;"}
@@ -422,12 +419,14 @@ May require chatting at this stage to clarify user's request
 ## A vibe-coded databot
 
 ::: {style="text-align: center; margin-top: 150px;"}
-::: {style="font-size: 1.4em;"}
+::: {style="font-size: 1.2em;"}
 [data-portal.rice-business.org](https://data-portal.rice-business.org)
 :::
 :::
 
-## {background-iframe="https://data-portal.rice-business.org" background-interactive=true}
+##
+
+<iframe src="https://data-portal.rice-business.org" style="width: 100%; height: 80vh; border: none; margin: 0;"></iframe>
 
 ## Claude code demo 
 
@@ -633,7 +632,11 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 :::
 
 
-## {background-video="columbo_final.webm" background-video-loop=true background-video-muted=false}
+##
+
+<video width="100%" height="auto" style="max-height: 85vh; margin: 0 auto; display: block;" controls loop autoplay>
+  <source src="columbo_final.webm" type="video/webm">
+</video>
 
 ## Adding a tool to Claude Desktop
 
