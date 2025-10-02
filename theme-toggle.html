@@ -74,8 +74,13 @@ body.light-theme .reveal .backgrounds {
   background-color: #f7f3d3 !important;
 }
 
-body.light-theme .reveal .backgrounds .slide-background:not([data-background-image]) {
+body.light-theme .reveal .backgrounds .slide-background {
   background-color: #f7f3d3 !important;
+}
+
+/* Override for background image slides - check if the slide-background has a style attribute with background-image */
+body.light-theme .reveal .backgrounds .slide-background[style*="background-image"] {
+  background-color: transparent !important;
 }
 
 /* Make the content section transparent for background image slides */

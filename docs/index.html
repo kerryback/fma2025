@@ -315,7 +315,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 </section>
 <section id="microsoft-vibe-working-powered-by-anthropic" class="slide level2">
 <h2>Microsoft Vibe Working (powered by Anthropic)</h2>
-<video width="100%" height="600" controls="">
+<video width="100%" height="575px" controls="">
 <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
 </video>
 </section>
@@ -1097,9 +1097,19 @@ Kerry Back<br>Rice University<br>FMA 2025
 
     
 
-    body.light-theme .reveal .backgrounds .slide-background:not([data-background-image]) {
+    body.light-theme .reveal .backgrounds .slide-background {
 
       background-color: #f7f3d3 !important;
+
+    }
+
+    
+
+    /* Override for background image slides - check if the slide-background has a style attribute with background-image */
+
+    body.light-theme .reveal .backgrounds .slide-background[style*="background-image"] {
+
+      background-color: transparent !important;
 
     }
 
