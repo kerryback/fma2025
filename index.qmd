@@ -9,6 +9,8 @@ format:
       - theme-toggle.html
     scrollable: true
     self-contained: false
+resources:
+  - images/microsoft-vibe-working.mp4
 ---
 
 ## CNBC on JPMorgan, 9/30/2025
