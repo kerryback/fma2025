@@ -217,17 +217,12 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 *Currently requires Claude Max subscription.*
 :::
 
-## {.fullscreen-slide}
-
-<video width="100%" height=100% controls>
-  <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
-</video>
 
 ## Microsoft Vibe Working (powered by Anthropic)
 
 
 
-<video width="100%" height="550" controls>
+<video width="100%" height="600" controls>
   <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
 </video>
 
@@ -270,11 +265,11 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 ::: {.quote-box}
 A system prompt is text that is sent to the LLM along with each user prompt. 
 :::
-<br>
 
 ::: {.quote-box}
 It contains information and instructions for the LLM.
 :::
+<br> 
 
 ::: {style="text-align: center; margin-top: 150px; font-size: 1.2em;"}
 [Anthropic's System Prompts](https://docs.claude.com/en/release-notes/system-prompts#august-5-2025)
@@ -509,12 +504,17 @@ Use my NGROK_TOKEN in C:\\users\\kerry\\Dropbox\\.ENV to tunnel the app.
 
 ## What about AI?
 
+::: {.fragment}
 ✓ AI is used in business
+:::
 
+::: {.fragment}
 ✓ AI is useful for teaching/tutoring
+:::
 
+::: {.fragment}
 ✗ AI can automatically do many things we were teaching before
-
+:::
 <br>
 
 ::: {.fragment}
@@ -574,7 +574,7 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 - In-class <span class="highlight">exams with AI</span> that are more ambitious than exams today.  Cases can become exams with AI assistance.
 :::
 
-## How show we teach?
+## How should we teach?
 
 - AI is a very effective tutor
 - We should take advantage of it
@@ -637,9 +637,7 @@ VSCode with Python and Claude Code extensions
 Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and  risk-free rate.  Only ask for the minimum number of correlations required to compute the correlation matrix.  Assume short sales are allowed. Compute and display the tangency portfolio.
 :::
 
-## {.fullscreen-slide}
-
-![](columbo_final.gif)
+## 
 
 ## {background-image="columbo_final.gif" background-size="contain" background-repeat="no-repeat" background-position="center"}
 
