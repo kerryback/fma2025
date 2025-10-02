@@ -824,5 +824,12 @@
     "title": "Incorporating AI into Teaching",
     "section": "Adding a tool to Claude Desktop",
     "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP)"
+  },
+  {
+    "objectID": "index.html#example-rag-chatbot",
+    "href": "index.html#example-rag-chatbot",
+    "title": "Incorporating AI into Teaching",
+    "section": "Example: RAG Chatbot",
+    "text": "Example: RAG Chatbot"
   }
 ]

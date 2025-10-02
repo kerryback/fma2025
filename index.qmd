@@ -8,7 +8,7 @@ format:
     include-after-body:
       - theme-toggle.html
     scrollable: true
-    self-contained: true
+    self-contained: false
 ---
 
 ## What the Future Holds (CNBC, 9/30/2025)
