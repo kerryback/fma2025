@@ -354,14 +354,14 @@
     "href": "index.html#section",
     "title": "Incorporating AI into Teaching",
     "section": "",
-    "text": "Waldron gave [JPMorgan LLM Suite] a prompt:\n\nYou are a technology banker at JPMorgan Chase preparing for a meeting with the CEO and CFO of Nvidia. Prepare a five-page presentation that includes the latest news, earnings and a peer comparison.\n\n\n LLM Suite created a credible-looking PowerPoint deck in about 30 seconds. Waldron:\n\nYou can imagine in the past how that would have been done; we would’ve had teams of investment banking analysts working long hours at night to do this."
+    "text": "[What we’re working towards is that] every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge."
   },
   {
     "objectID": "index.html#section-1",
     "href": "index.html#section-1",
     "title": "Incorporating AI into Teaching",
     "section": "",
-    "text": "A Vibe Coded Chatbot: chat.derivative-securities.org"
+    "text": "Waldron gave [JPMorgan LLM Suite] a prompt:\n\nYou are a technology banker at JPMorgan Chase preparing for a meeting with the CEO and CFO of Nvidia. Prepare a five-page presentation that includes the latest news, earnings and a peer comparison.\n\n\n LLM Suite created a credible-looking PowerPoint deck in about 30 seconds. Waldron:\n\n\n\n“Every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge,” he said.\nIn an AI world, you’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems\nworkers would shift from being creators of reports or software updates, or “makers” in his terminology, to “checkers” or managers of AI agents doing that work ## MIT/Media Labs State of AI in Business 2025\n\n\nOnly 5% of AI pilots reach production.\n\n\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.\n\n\nLife was the same for 40 years\n\n\n\n\nVisiCalc introduced for the Apple II in 1979\n\n\n\n\nLotus-123 introduced for the IBM PC in 1983\n\n\n\n\nMicrosoft Excel introduced for Windows in 1987\n\n\n\n\nNow, with AI, we’re all in the same boat\n\n\n\n\n\n\n\nIt’s hard to keep up!\n\n\n\n\n\n\n\n\n\n\n\n\nPlan\n  1. A course on AI  2. Previous disruptive technologies  3. Updating existing courses for AI  4. Deep dive into Claude Code\n\n\nCourse Messages\n\nChatting\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nCoding: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\n\nBuilding stuff:\n\nApps: Encapsulate tested code in an app\nCustom chatbots: Chatbots can be customized through the system prompt, RAG, or fine tuning\nAgents: Agents are chatbots equipped with tools\n\n\n\n\nTeaching methods\n\nCase: Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\nFinancial analysis by vibe coding\nBuild apps, custom chatbots, agents\nIn-class demos, group projects\n\n\n\nAI Plumbing\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools\n\n\n\n\n\nWhy teach the plumbing?\n\nMay be useful to have some perspective on how things fit together\nMay be valuable for students to be plumbers if they end up at small firms\nExamples provide another teaching opportunity for core financial analysis\nChecks a box for recruiters\n\n\n\nPrompt Engineering\n\nSome students ask for instruction on how to prompt AI\nSpecial techniques aren’t needed. Practice is.\n\nEthan Mollick, Wharton, “Good Enough Prompting:”\n\nTreat AI like an infinitely patient new coworker … As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at … Working with AI is a dialogue, not an order.\n\n\n\nAI Coding\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.\n\n\n\n\n\n\n\n\nAaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst.\n\n\n\n\nSome tools\n\nChatbots that code: ChatGPT, Gemini, Claude, Julius.ai\nPython environments with AI assistance: Google Colab, VS Code with Copilot, Cursor, Windsurf\nAll-in-one vibe coder and host: Replit\nNo-code option: OpenAI CustomGPTs\nMy current choice: Claude Desktop (python in cloud) and Claude Code (local python)\n\n\n\nDemo\n\nPrompt Claude:\n\n::: {style=“font-size: 0.9em;} Read the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project sales, assets (based on asset turnover projection), depreciation (based on depreciation to assets), cap ex (based on asset and depreciation projections), net working capital (based on net working capital to sales), ebitda (based on ebitda margin), taxes, nopat, and free cash flow. create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.\n\n\n\n\nCurrently requires Claude Max subscription."
   },
   {
     "objectID": "index.html#life-was-the-same-for-40-years",
@@ -389,7 +389,7 @@
     "href": "index.html#plan",
     "title": "Incorporating AI into Teaching",
     "section": "Plan",
-    "text": "Plan\n  1. A course on AI  2. Previous disruptive technologies  3. Updating existing courses for AI  4. Deep dive into Claude Code"
+    "text": "Plan\n  1. A course on AI for finance  2. Previous disruptive technologies  3. Updating existing courses for AI  4. Deep dive into Claude Code"
   },
   {
     "objectID": "index.html#example-prompt-for-claude",
@@ -438,7 +438,7 @@
     "href": "index.html#what-about-ai",
     "title": "Incorporating AI into Teaching",
     "section": "What about AI?",
-    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\n Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed"
+    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\n Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed."
   },
   {
     "objectID": "index.html#ai-is-used-in-business",
@@ -536,14 +536,14 @@
     "href": "index.html#system-prompt-is-fundamental",
     "title": "Incorporating AI into Teaching",
     "section": "System prompt is fundamental",
-    "text": "System prompt is fundamental\n\nA system prompt is text that is sent to the LLM along with each user prompt.  It contains information and instructions for the LLM.\n\nAnthropic’s System Prompts"
+    "text": "System prompt is fundamental\n\n\nA system prompt is text that is sent to the LLM along with each user prompt.\n\n\n\nIt contains information and instructions for the LLM.\n\n\nAnthropic’s System Prompts"
   },
   {
     "objectID": "index.html#rag-retrieval-augmented-generation-chatbots",
     "href": "index.html#rag-retrieval-augmented-generation-chatbots",
     "title": "Incorporating AI into Teaching",
     "section": "RAG (Retrieval Augmented Generation) chatbots",
-    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nSend stored chunks of documents to LLM along with prompt and system prompt\nChoose chunks most relevant to the prompt\n\nVector embedding (vector store)\nSimilarity search\n\nKey element of many corporate AI implementations\nGoogle’s Notebook LM (now in Canvas) uses RAG"
+    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nStore documents\n\nSend chunks to LLM along with prompt and system prompt\nChoose most relevant chunks (vector similarity)\nKey element of many corporate AI implementations\nGoogle’s Notebook LM (now in Canvas) uses RAG"
   },
   {
     "objectID": "index.html#chatbot-structure",
@@ -571,7 +571,7 @@
     "href": "index.html#why-mba-students-should-learn-about-agents",
     "title": "Incorporating AI into Teaching",
     "section": "Why mba students should learn about agents",
-    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
+    "text": "Why mba students should learn about agents\n Fortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
   },
   {
     "objectID": "index.html#database-agent-passes-prompt-from-user-to-llm",
@@ -648,7 +648,7 @@
     "href": "index.html#controlling-the-sources",
     "title": "Incorporating AI into Teaching",
     "section": "Controlling the sources",
-    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …”\n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
+    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …” \n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
   },
   {
     "objectID": "index.html#how-can-we-assess",
@@ -676,14 +676,14 @@
     "href": "index.html#capabilities",
     "title": "Incorporating AI into Teaching",
     "section": "Capabilities",
-    "text": "Capabilities\n\nCreate, edit, copy, move, delete files\nWrite, edit, and run Python scripts and notebooks\nWrite, edit, and compile LaTeX documents\nCreate and edit Word docs and PowerPoint decks\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)"
+    "text": "Capabilities\n\nCreate, edit, copy, move, delete files\nWrite, edit, and run Python scripts and notebooks\nWrite, edit, and compile LaTeX documents\nCreate and edit Word docs, and PowerPoint decks\nCreate GitHub repos and push and launch apps on hosts (Hugging Face Spaces, Streamlit Community Cloud, Koyeb, Render, …)"
   },
   {
     "objectID": "index.html#claude-code-demo",
     "href": "index.html#claude-code-demo",
     "title": "Incorporating AI into Teaching",
-    "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: show the code that calculates the tangency portfolio and explain it."
+    "section": "Claude code demo",
+    "text": "Claude code demo\nOn Windows: Open PowerShell, install Claude Code, type claude to run.\n\nCreate a streamlit app that takes a user prompt and sends it to OpenAI GPT 4.1 using my OPENAI_API_KEY stored in C:\\users\\kerry\\Dropbox\\.ENV. In the system prompt, tell GPT to respond in Spanish. Run the app.\n\n\nPrint the code in app.py to the screen and explain it.\n\n\nUse my NGROK_TOKEN in C:\\users\\kerry\\Dropbox\\.ENV to tunnel the app."
   },
   {
     "objectID": "index.html#claude-code-in-vs-code-etc.",
@@ -697,7 +697,7 @@
     "href": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
     "title": "Incorporating AI into Teaching",
     "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
   },
   {
     "objectID": "index.html#yeyati-brookings-2025",
@@ -753,7 +753,7 @@
     "href": "index.html#demo",
     "title": "Incorporating AI into Teaching",
     "section": "Demo",
-    "text": "Demo\n\nPrompt Claude:\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
+    "text": "Demo\n\nPrompt Claude:\n\n\nRead the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project sales, assets (based on asset turnover projection), depreciation (based on depreciation to assets), cap ex (based on asset and depreciation projections), net working capital (based on net working capital to sales), ebitda (based on ebitda margin), taxes, nopat, and free cash flow. create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.\n\n\n\nCurrently requires Claude Max subscription."
   },
   {
     "objectID": "index.html#some-tools",
@@ -823,7 +823,7 @@
     "href": "index.html#adding-a-tool-to-claude-desktop",
     "title": "Incorporating AI into Teaching",
     "section": "Adding a tool to Claude Desktop",
-    "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP)"
+    "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots\nRecently improved configuration method for users (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)"
   },
   {
     "objectID": "index.html#example-rag-chatbot",
@@ -887,5 +887,75 @@
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "genai4finance.kerryback.com"
+  },
+  {
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "genai4finance.kerryback.com"
+  },
+  {
+    "objectID": "index.html#cnbc-on-jpmorgan-9302025",
+    "href": "index.html#cnbc-on-jpmorgan-9302025",
+    "title": "Incorporating AI into Teaching",
+    "section": "CNBC on JPMorgan, 9/30/2025",
+    "text": "CNBC on JPMorgan, 9/30/2025\n\n[In 2023, JPMorgan] gave employees access to OpenA’s models through LLM Suite; it was essentially a corporate ChatGPT tool used to draft emails and summarize documents.\n\n\nAbout 250,000 JPMorgan employees have access to the platform today … Half of them use it roughly every day.\n\n\nJPMorgan is now early in the next phase of its AI blueprint: It has begun deploying agentic AI to handle complex multistep tasks for employees, according to an internal road map provided by the bank."
+  },
+  {
+    "objectID": "index.html#cnbc-on-jpmorgan-9302025-1",
+    "href": "index.html#cnbc-on-jpmorgan-9302025-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "CNBC on JPMorgan, 9/30/2025",
+    "text": "CNBC on JPMorgan, 9/30/2025\n\n(What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.\n\n\nYou’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems.\n\n\nWorkers would shift from being creators of reports or software updates, or “makers” … to “checkers” or managers of AI agents doing that work."
+  },
+  {
+    "objectID": "index.html#a-course-on-ai-for-finance-main-themes",
+    "href": "index.html#a-course-on-ai-for-finance-main-themes",
+    "title": "Incorporating AI into Teaching",
+    "section": "A course on AI for Finance: main themes",
+    "text": "A course on AI for Finance: main themes\n\nLearn/practice chatting:\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nCoding: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\n\nLearn/practice building:\n\nApps: Encapsulate tested code in an app\nCustom chatbots: Chatbots can be customized through the system prompt, RAG, or fine tuning\nAgents: Agents are chatbots equipped with tools"
+  },
+  {
+    "objectID": "index.html#prompt-engineering-1",
+    "href": "index.html#prompt-engineering-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\n\nWhen you learn what it is good and bad at, you can craft more precise prompts\nSave and re-use prompts\nExercise (in class and assigned):\n\nChat with a chatbot about some financial analysis\nEvaluate the chatbot output\nDevelop a prompt that will get what you want faster the next time you need a similar analysis"
+  },
+  {
+    "objectID": "index.html#tools-for-vibe-coding",
+    "href": "index.html#tools-for-vibe-coding",
+    "title": "Incorporating AI into Teaching",
+    "section": "tools for vibe coding",
+    "text": "tools for vibe coding\n\nChatbots that code: ChatGPT, Gemini, Claude, Julius.ai\nPython environments with AI assistance: Google Colab, VS Code, Cursor, Windsurf\nAll-in-one vibe coder and host: Replit\nMy current choice: Claude Desktop (python in cloud) and Claude Code (local python)"
+  },
+  {
+    "objectID": "index.html#claude-desktop-demo",
+    "href": "index.html#claude-desktop-demo",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Desktop Demo",
+    "text": "Claude Desktop Demo\n\n\nRead the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project sales, assets (based on asset turnover projection), depreciation (based on depreciation to assets), cap ex (based on asset and depreciation projections), net working capital (based on net working capital to sales), ebitda (based on ebitda margin), taxes, nopat, and free cash flow. create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.\n\n\n\nCurrently requires Claude Max subscription."
+  },
+  {
+    "objectID": "index.html#ai-plumbing-1",
+    "href": "index.html#ai-plumbing-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "AI Plumbing",
+    "text": "AI Plumbing\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
+  },
+  {
+    "objectID": "index.html#claude-code-demo-1",
+    "href": "index.html#claude-code-demo-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Code Demo",
+    "text": "Claude Code Demo\n VSCode with Python and Claude Code extensions  ::: {.quote-box} Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Compute and display the tangency portfolio, ASSUMING SHORT SALES ARE ALLOWED. :::"
+  },
+  {
+    "objectID": "index.html#handheld-calculators-1",
+    "href": "index.html#handheld-calculators-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "Handheld Calculators",
+    "text": "Handheld Calculators\n\nMuch worry that students wouldn’t learn addition, subtraction, …\n\nStudies haven’t found an effect\nBut primary schools still provide practice and assessments in which calculators are not allowed\n\nSome hoped that schools could move beyond calculation and teach deeper math\n\nThat didn’t seem to happen either"
   }
 ]

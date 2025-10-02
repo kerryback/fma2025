@@ -59,7 +59,8 @@
       "Bash(pandoc:*)",
       "Bash(quarto pandoc:*)",
       "Bash(git remote remove:*)",
-      "Bash(git remote rename:*)"
+      "Bash(git remote rename:*)",
+      "Bash(npx @anthropic-ai/mcpb:*)"
     ],
     "deny": [],
     "ask": []
