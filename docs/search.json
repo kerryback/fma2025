@@ -487,7 +487,7 @@
     "href": "index.html#system-prompt-is-fundamental",
     "title": "Incorporating AI into Teaching",
     "section": "System prompt is fundamental",
-    "text": "System prompt is fundamental\n\n\nA system prompt is text that is sent to the LLM along with each user prompt.\n\n\n\nIt contains information and instructions for the LLM.\n\n\nAnthropic’s System Prompts"
+    "text": "System prompt is fundamental\n\n\nA system prompt is text that is sent to the LLM along with each user prompt.\n\n\nIt contains information and instructions for the LLM.\n\n\n\nAnthropic’s System Prompts"
   },
   {
     "objectID": "index.html#rag-retrieval-augmented-generation-chatbots",
