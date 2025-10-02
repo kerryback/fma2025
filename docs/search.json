@@ -385,6 +385,13 @@
     "text": "It’s hard to keep up!"
   },
   {
+    "objectID": "index.html#this-is-me",
+    "href": "index.html#this-is-me",
+    "title": "Incorporating AI into Teaching",
+    "section": "This is me",
+    "text": "This is me"
+  },
+  {
     "objectID": "index.html#plan",
     "href": "index.html#plan",
     "title": "Incorporating AI into Teaching",
@@ -459,7 +466,7 @@
     "href": "index.html#ai-plumbing",
     "title": "Incorporating AI into Teaching",
     "section": "AI Plumbing",
-    "text": "AI Plumbing\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
+    "text": "AI Plumbing\n\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
   },
   {
     "objectID": "index.html#why-teach-the-plumbing",
@@ -529,7 +536,7 @@
     "href": "index.html#database-agent-passes-prompt-from-user-to-llm",
     "title": "Incorporating AI into Teaching",
     "section": "database agent passes prompt from user to LLM",
-    "text": "database agent passes prompt from user to LLM\n\n\n\n\n\nMay require chatting at this stage to clarify user’s request"
+    "text": "database agent passes prompt from user to LLM\n\n\n\n\n\n\nMay require chatting at this stage to clarify user’s request"
   },
   {
     "objectID": "index.html#agent-passes-sql-from-llm-to-data-warehouse",
@@ -543,14 +550,14 @@
     "href": "index.html#data-warehouse-passes-response-to-agent",
     "title": "Incorporating AI into Teaching",
     "section": "Data Warehouse passes response to agent",
-    "text": "Data Warehouse passes response to agent\n\n\n\n\n\n\nResponse could be error message\nIf so, agent should send to LLM for new SQL code"
+    "text": "Data Warehouse passes response to agent\n\n\n\n\n\n\n\nResponse could be error message\nIf so, agent should send to LLM for new SQL code"
   },
   {
     "objectID": "index.html#agent-passes-data-from-warehouse-to-user",
     "href": "index.html#agent-passes-data-from-warehouse-to-user",
     "title": "Incorporating AI into Teaching",
     "section": "agent passes data from warehouse to user",
-    "text": "agent passes data from warehouse to user\n\n\n\n\n\nCould be more things connected\nE.g., send data to python engine\nSend python output to user"
+    "text": "agent passes data from warehouse to user\n\n\n\n\n\n\nCould be more things connected\nE.g., send data to python engine\nSend python output to user"
   },
   {
     "objectID": "index.html#a-vibe-coded-databot",
