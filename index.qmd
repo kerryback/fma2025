@@ -615,7 +615,7 @@ Then: show the code that calculates the tangency portfolio and explain it.
 
 
 
-## {background-video="columbo_final.webm" background-video-loop=true background-video-muted=true}
+## {background-video="columbo_final.webm" background-video-loop=true background-video-muted=false}
 
 ## Adding a tool to Claude Desktop
 
