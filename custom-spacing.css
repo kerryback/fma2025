@@ -137,3 +137,31 @@ body:not(.light-theme) .reveal section.has-dark-background,
 body:not(.light-theme) .reveal section[data-background-iframe] {
   background: transparent !important;
 }
+
+/* Full-screen slide style for iframes and videos */
+.reveal .fullscreen-slide {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100% !important;
+}
+
+.reveal .fullscreen-slide h2 {
+  display: none !important;
+}
+
+.reveal .fullscreen-slide iframe,
+.reveal .fullscreen-slide video {
+  width: 100% !important;
+  height: 95vh !important;
+  max-height: 95vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Works in both light and dark modes */
+body.light-theme .reveal .fullscreen-slide,
+body:not(.light-theme) .reveal .fullscreen-slide {
+  background: transparent !important;
+  padding: 0 !important;
+}

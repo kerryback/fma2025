@@ -292,9 +292,9 @@ It contains information and instructions for the LLM.
 
 
 
-##
+## {.fullscreen-slide}
 
-<iframe src="https://chat.derivative-securities.org" style="width: 100%; height: 80vh; border: none; margin: 0;"></iframe>
+<iframe src="https://chat.derivative-securities.org"></iframe>
 
 
 
@@ -424,9 +424,9 @@ May require chatting at this stage to clarify user's request
 :::
 :::
 
-##
+## {.fullscreen-slide}
 
-<iframe src="https://data-portal.rice-business.org" style="width: 100%; height: 80vh; border: none; margin: 0;"></iframe>
+<iframe src="https://data-portal.rice-business.org"></iframe>
 
 ## Claude code demo 
 
@@ -632,9 +632,9 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 :::
 
 
-##
+## {.fullscreen-slide}
 
-<video width="100%" height="auto" style="max-height: 85vh; margin: 0 auto; display: block;" controls loop autoplay>
+<video controls loop autoplay>
   <source src="columbo_final.webm" type="video/webm">
 </video>
 
