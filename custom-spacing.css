@@ -127,14 +127,26 @@ body:not(.light-theme) .reveal .quote-box {
   background: transparent !important;
 }
 
-/* Ensure the slide content area doesn't have a background on iframe slides */
+/* Ensure the slide content area doesn't have a background on iframe and background-image slides */
 body.light-theme .reveal section.has-light-background,
-body.light-theme .reveal section[data-background-iframe] {
+body.light-theme .reveal section[data-background-iframe],
+body.light-theme .reveal section[data-background-image] {
   background: transparent !important;
 }
 
 body:not(.light-theme) .reveal section.has-dark-background,
-body:not(.light-theme) .reveal section[data-background-iframe] {
+body:not(.light-theme) .reveal section[data-background-iframe],
+body:not(.light-theme) .reveal section[data-background-image] {
+  background: transparent !important;
+}
+
+/* Ensure slide background is visible for background-image slides */
+.reveal .slide-background[data-background-image] {
+  opacity: 1 !important;
+  z-index: 0 !important;
+}
+
+.reveal section[data-background-image] {
   background: transparent !important;
 }
 
