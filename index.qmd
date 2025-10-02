@@ -289,9 +289,9 @@ It contains information and instructions for the LLM.
 - Key element of many corporate AI implementations
 - Google's Notebook LM (now in Canvas) uses RAG
 
-## chat.derivative-securities.org
+## Example: RAG Chatbot
 
-<iframe src="https://chat.derivative-securities.org" width="100%" height="550" style="border:1px solid #ccc;" allow="*" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"></iframe>
+<iframe src="https://chat.derivative-securities.org" width="100%" height="550" style="border:1px solid #ccc;"></iframe>
 
 
 
