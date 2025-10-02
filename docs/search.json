@@ -655,14 +655,14 @@
     "href": "index.html#how-should-we-teach",
     "title": "Incorporating AI into Teaching",
     "section": "How should we teach?",
-    "text": "How should we teach?\n\nAI is a very effective tutor\nWe should take advantage of it\nAsking students to chat with chatbots can replace “Do the assigned reading.”\nCan be assigned before class or in class before slides.\n\n\n\nAsk your chatbot to teach you about … Be sure to tell it to ask you questions to ensure you are understanding."
+    "text": "How should we teach?\n\nAI is a very effective tutor\nWe should take advantage of it\nAsking students to chat with chatbots can replace “Do the assigned reading.”\nCan be assigned before class or in class before slides\n\n\n\nAsk your chatbot to teach you about … Be sure to tell it to ask you questions to ensure you are understanding."
   },
   {
     "objectID": "index.html#controlling-the-sources",
     "href": "index.html#controlling-the-sources",
     "title": "Incorporating AI into Teaching",
     "section": "Controlling the sources",
-    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …” \n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
+    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …” \n\n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
   },
   {
     "objectID": "index.html#plan-3",
@@ -690,7 +690,7 @@
     "href": "index.html#claude-code-demo-1",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code Demo",
-    "text": "Claude Code Demo\nVSCode with Python and Claude Code extensions\n\nCreate a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio."
+    "text": "Claude Code Demo\n VSCode with Python and Claude Code extensions:\n\n\nCreate a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio."
   },
   {
     "objectID": "index.html#adding-a-tool-to-claude-desktop",
@@ -700,8 +700,8 @@
     "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots\nRecently improved configuration method for users (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)"
   },
   {
-    "objectID": "index.html#section-4",
-    "href": "index.html#section-4",
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "genai4finance.kerryback.com"

@@ -222,7 +222,7 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 
 
 
-<video width="100%" height="600" controls>
+<video width="100%" height="575px" controls>
   <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
 </video>
 
@@ -271,7 +271,7 @@ It contains information and instructions for the LLM.
 :::
 <br> 
 
-::: {style="text-align: center; margin-top: 150px; font-size: 1.2em;"}
+::: {style="text-align: center; margin-top: 100px; font-size: 1.2em;"}
 [Anthropic's System Prompts](https://docs.claude.com/en/release-notes/system-prompts#august-5-2025)
 :::
 
@@ -578,8 +578,8 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 
 - AI is a very effective tutor
 - We should take advantage of it
-- <span class="highlight">Asking students to chat with chatbots can replace "Do the assigned reading."</span>
-- Can be assigned before class or in class before slides.
+- Asking students to <span class="highlight">chat with chatbots can replace "Do the assigned reading."</span>
+- Can be assigned before class or in class before slides
 
 ::: {.fragment}
 ::: {.quote-box}  
@@ -594,7 +594,9 @@ Ask your chatbot to teach you about ... Be sure to tell it to ask you questions 
 <br>
 
 ::: {.fragment}
+::: {.quote-box}
 But this is probably unnecessary for most topics.  The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations.
+:::
 :::
 
 ## Plan 
@@ -631,22 +633,24 @@ But this is probably unnecessary for most topics.  The LLMs are much, much more 
 
 ## Claude Code Demo
 
-VSCode with Python and Claude Code extensions
+<br>
+VSCode with Python and Claude Code extensions:
+
+<br>
 
 ::: {.quote-box}
 Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and  risk-free rate.  Only ask for the minimum number of correlations required to compute the correlation matrix.  Assume short sales are allowed. Compute and display the tangency portfolio.
 :::
 
-## 
+## {.fullscreen-slide}
 
-## {background-image="columbo_final.gif" background-size="contain" background-repeat="no-repeat" background-position="center"}
+<img src="columbo_final.gif">
 
 ## Adding a tool to Claude Desktop
 
 - Anthropic created Model Context Protocol (MCP) for adding tools to chatbots 
 - Recently improved configuration method for users (mcpb files)
 - Demo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)
-
 
 ##
 

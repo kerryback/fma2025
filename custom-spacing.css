@@ -210,6 +210,23 @@ body:not(.light-theme) .reveal section[data-background-image] {
   z-index: 10 !important;
 }
 
+/* Make images (like gifs) fill entire viewport */
+.reveal .slides section.fullscreen-slide img {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 10 !important;
+}
+
 /* Works in both light and dark modes */
 body.light-theme .reveal .slides section.fullscreen-slide,
 body:not(.light-theme) .reveal .slides section.fullscreen-slide {
