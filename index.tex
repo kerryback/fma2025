@@ -1,0 +1,1033 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Incorporating AI  into Teaching},
+  pdfauthor={Kerry Back Rice University FMA 2025},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Incorporating AI into Teaching}
+\author{Kerry BackRice UniversityFMA 2025}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+
+\begin{frame}{What the Future Holds (CNBC, 9/30/2025)}
+\phantomsection\label{what-the-future-holds-cnbc-9302025}
+Derek Waldron, JPMorgan chief analytics officer:
+
+The broad vision that we're working towards is one where the JPMorgan
+Chase of the future is going to be a fully AI-connected enterprise.
+
+Every employee will have their own personalized AI assistant; every
+process is powered by AI agents, and every client experience has an AI
+concierge.
+\end{frame}
+
+\begin{frame}{}
+\phantomsection\label{section}
+Waldron gave {[}JPMorgan LLM Suite{]} a prompt:
+
+You are a technology banker at JPMorgan Chase preparing for a meeting
+with the CEO and CFO of Nvidia. Prepare a five-page presentation that
+includes the latest news, earnings and a peer comparison.
+
+LLM Suite created a credible-looking PowerPoint deck in about 30
+seconds.
+\end{frame}
+
+\begin{frame}{}
+\phantomsection\label{section-1}
+Waldron:
+
+You can imagine in the past how that would have been done; we would've
+had teams of investment banking analysts working long hours at night to
+do this.
+
+\begin{block}{From chat to agents}
+\phantomsection\label{from-chat-to-agents}
+JPMorgan is now early in the next phase of its AI blueprint: It has
+begun deploying agentic AI to handle complex multistep tasks for
+employees, according to an internal road map provided by the bank.
+\end{block}
+\end{frame}
+
+\begin{frame}{Life was the same for 40 years}
+\phantomsection\label{life-was-the-same-for-40-years}
+\begin{columns}[T]
+\begin{column}{0.33\linewidth}
+\includegraphics[width=3.125in,height=2.08333in]{images/visicalc.png}
+
+VisiCalc introduced for the Apple II in 1979
+\end{column}
+
+\begin{column}{0.33\linewidth}
+\includegraphics[width=3.125in,height=2.08333in]{images/lotus-123.jpg}
+
+Lotus-123 introduced for the IBM PC in 1983
+\end{column}
+
+\begin{column}{0.33\linewidth}
+\includegraphics[width=3.125in,height=2.08333in]{images/excel20.png}
+
+Microsoft Excel introduced for Windows in 1987
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Now, with AI, we're all in the same boat}
+\phantomsection\label{now-with-ai-were-all-in-the-same-boat}
+\pandocbounded{\includegraphics[keepaspectratio]{images/ducks-sinking.png}}
+\end{frame}
+
+\begin{frame}{It's hard to keep up!}
+\phantomsection\label{its-hard-to-keep-up}
+\pandocbounded{\includegraphics[keepaspectratio]{images/coyote11.png}}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/coyote21.png}}
+\end{frame}
+
+\begin{frame}{Plan}
+\phantomsection\label{plan}
+\begin{enumerate}
+\tightlist
+\item
+  Example of what AI can do today - new Claude skill from September
+\item
+  Historical analogues?
+\item
+  A course on AI
+\item
+  Updating existing courses to use AI
+\item
+  Deep dive into Claude Code
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{1. Example (prompt for Claude)}
+\phantomsection\label{example-prompt-for-claude}
+Read the uploaded case (Valuing Walmart 2010). Ignore the valuation
+method described in the case. Instead, generate pro forma statements and
+perform a two-stage DCF analysis.
+
+Document your assumptions and your reasons for them. Generate an Excel
+workbook and a Word doc. Format the Excel worksheets nicely.
+
+\emph{Currently requires Claude Max subscription.}
+\end{frame}
+
+\begin{frame}{Microsoft Vibe Working (powered by Anthropic)}
+\phantomsection\label{microsoft-vibe-working-powered-by-anthropic}
+\end{frame}
+
+\begin{frame}{2. Historical analogues}
+\phantomsection\label{historical-analogues}
+\begin{enumerate}
+\tightlist
+\item
+  Handheld calculators
+\item
+  Personal computers
+\end{enumerate}
+
+How did teaching and learning change? Are there lessons for today?
+\end{frame}
+
+\begin{frame}{Introduction of Handheld Calculators}
+\phantomsection\label{introduction-of-handheld-calculators}
+\begin{itemize}
+\tightlist
+\item
+  Much worry that students wouldn't learn addition, subtraction,
+  \ldots{}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Studies haven't found an effect
+  \item
+    But primary schools still provide practice and assessments in which
+    calculators are not allowed
+  \end{itemize}
+\item
+  Some hoped that schools could move beyond calculation and teach deeper
+  math
+
+  \begin{itemize}
+  \tightlist
+  \item
+    That didn't seem to happen either
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Introduction of Personal computers \& spreadsheets}
+\phantomsection\label{introduction-of-personal-computers-spreadsheets}
+\begin{enumerate}
+\tightlist
+\item
+  We added courses on how to use spreadsheets
+\item
+  We updated existing courses to use spreadsheets
+\item
+  We assess how well students can use spreadsheets (no pencil and paper
+  valuation analyses)
+\end{enumerate}
+
+\begin{quote}
+Teaching how to do finance in spreadsheets is a main goal.
+\end{quote}
+\end{frame}
+
+\begin{frame}{Why?}
+\phantomsection\label{why}
+\begin{itemize}
+\tightlist
+\item
+  Spreadsheets are used in business
+\item
+  Spreadsheets are ideal for teaching the logic of some things
+  (valuation/capital budgeting)
+\item
+  Spreadsheets don't automatically do the things we were teaching before
+  (financial calculators \(\rightarrow\) spreadsheets)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What about AI?}
+\phantomsection\label{what-about-ai}
+✓ AI is used in business
+
+✓ AI is useful for teaching/tutoring
+
+✗ AI can automatically do many things we were teaching before
+
+AI is more like calculators than spreadsheets. We worry that students
+won't learn skills that they need.
+
+Like primary schools and arithmetic, we will need to have practice and
+assessments in which AI is not allowed
+\end{frame}
+
+\begin{frame}{AI is used in Business}
+\phantomsection\label{ai-is-used-in-business}
+MIT/Media Labs State of AI in Business 2025:
+
+Workers from over 90\% of the companies we surveyed reported regular use
+of personal AI tools for work tasks. In fact, almost every single person
+used an LLM in some form for their work.
+\end{frame}
+
+\begin{frame}{Plan}
+\phantomsection\label{plan-1}
+✓ Example of what AI can do today
+
+✓ Historical analogues
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\item
+  A course on AI
+\item
+  Updating existing courses to use AI
+\item
+  Deep dive into Claude Code
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{3. Course on AI: principles}
+\phantomsection\label{course-on-ai-principles}
+\begin{itemize}
+\tightlist
+\item
+  {Treat AI as a colleague:} Collaborate, evaluate, iterate
+\item
+  {Vibe code financial analyses: LLMs are not trustworthy for
+  arithmetic:} Coding (Python) is essential
+\item
+  {Create apps:} For critical operations, test code and save as app
+\item
+  Create custom chatbots:\textless{}\span\textgreater{} Chatbots can be
+  customized through the system prompt, RAG, or fine tuning
+\item
+  {Create agents:} To use chatbot for critical operations, create app
+  and provide as tool
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Prompt Engineering}
+\phantomsection\label{prompt-engineering}
+\begin{itemize}
+\tightlist
+\item
+  Some students ask for instruction on how to prompt AI
+\item
+  Special techniques aren't needed. Practice is.
+\end{itemize}
+
+Ethan Mollick, Wharton, ``Good Enough Prompting:''
+
+Treat AI like an infinitely patient new coworker \ldots{} As it is a
+coworker, you want to work with it, not just give it orders, and you
+also want to learn what it is good or bad at \ldots{} Working with AI is
+a dialogue, not an order.
+\end{frame}
+
+\begin{frame}{Course structure}
+\phantomsection\label{course-structure}
+A. Introduction
+
+B. Coding with AI
+
+C. Apps, Chatbots, and Agents
+\end{frame}
+
+\begin{frame}{A. Course Introduction}
+\phantomsection\label{a.-course-introduction}
+\begin{itemize}
+\tightlist
+\item
+  Example of working with AI on valuation: Claude/Excel example
+\item
+  Case on corporate implementation of AI
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example of working with AI}
+\phantomsection\label{example-of-working-with-ai}
+Claude/Excel example
+
+\begin{itemize}
+\tightlist
+\item
+  Explain the calculations
+\item
+  What did you assume for \ldots{} and why?
+\item
+  How does the value change if we assume \ldots{} instead?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Case on corporate implementation}
+\phantomsection\label{case-on-corporate-implementation}
+\href{https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO}{Blazing
+New Trails: Responsible Generative AI and the Creative Adoption of a
+Large Language Model at Deloitte Canada}, 2024.
+
+\begin{itemize}
+\tightlist
+\item
+  Describes creation of a custom chatbot
+\item
+  Discusses reliability, bias, compliance, data privacy, trust of
+  customers
+\end{itemize}
+\end{frame}
+
+\begin{frame}{B. Coding with AI}
+\phantomsection\label{b.-coding-with-ai}
+In March 2025, Y Combinator CEO Garry Tan and managing partner Jared
+Friedman stated that
+
+\begin{columns}[T]
+\begin{column}{0.48\linewidth}
+for roughly a quarter of the startups in their Winter 2025 cohort, 95\%
+of the codebase was written by AI.
+\end{column}
+
+\begin{column}{0.48\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/bugs-bunny.png}}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Vibe coding for finance}
+\phantomsection\label{vibe-coding-for-finance}
+\begin{itemize}
+\tightlist
+\item
+  Chatbots with python can easily do many types of financial analyses:
+  regression, mean-variance optimization, binomial-tree option valuation
+  \ldots{}
+\item
+  Running python in the cloud:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ChatGPT, Claude, Google Colab with Gemini, Julius.ai
+  \end{itemize}
+\item
+  Running python locally:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    VS Code, Cursor, Windsurf, Claude Code
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{C. Apps, Chatbots, and Agents}
+\phantomsection\label{c.-apps-chatbots-and-agents}
+\begin{columns}[T]
+\begin{column}{0.7\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/ai_learning_progression.png}}
+\end{column}
+
+\begin{column}{0.3\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  Apps can use AI
+\item
+  Chatbots are apps
+\item
+  Agents are chatbots with tools
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Building apps, chatbots, and agents}
+\phantomsection\label{building-apps-chatbots-and-agents}
+\begin{itemize}
+\tightlist
+\item
+  Point and click to build Custom GPTs at chat.openai.com
+\item
+  Vibe code
+\end{itemize}
+\end{frame}
+
+\begin{frame}{chatbot is an app consisting of}
+\phantomsection\label{chatbot-is-an-app-consisting-of}
+\begin{itemize}
+\tightlist
+\item
+  User interface
+\item
+  API connection to an LLM, which has possibly been fine-tuned
+\item
+  System prompt
+\item
+  Possible retrieval of documents
+\item
+  Possible use of tools
+\end{itemize}
+\end{frame}
+
+\begin{frame}{System prompt is fundamental}
+\phantomsection\label{system-prompt-is-fundamental}
+A system prompt is text that is sent to the LLM along with each user
+prompt.
+
+It contains information and instructions for the LLM.
+
+\href{https://docs.claude.com/en/release-notes/system-prompts\#august-5-2025}{Anthropic's
+System Prompts}
+\end{frame}
+
+\begin{frame}{RAG (Retrieval Augmented Generation) chatbots}
+\phantomsection\label{rag-retrieval-augmented-generation-chatbots}
+\begin{itemize}
+\tightlist
+\item
+  Send stored chunks of documents to LLM along with prompt and system
+  prompt
+\item
+  Choose chunks most relevant to the prompt
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Vector embedding (vector store)
+  \item
+    Similarity search
+  \end{itemize}
+\item
+  Key element of many corporate AI implementations
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Chatbot structure}
+\phantomsection\label{chatbot-structure}
+\pandocbounded{\includegraphics[keepaspectratio]{images/chatbot.png}}
+\end{frame}
+
+\begin{frame}{Agent = Chatbot + Tools}
+\phantomsection\label{agent-chatbot-tools}
+\begin{itemize}
+\tightlist
+\item
+  AI agent is a chatbot equipped with tools to do things
+\item
+  Claude and ChatGPT are agents - they can send code to Python
+  environments
+\item
+  Database tools are very useful for chatbots
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Claude for Financial Services}
+\phantomsection\label{claude-for-financial-services}
+From
+\href{https://www.anthropic.com/news/claude-for-financial-services}{Anthropic}:
+
+Through data providers, Claude has real-time access to comprehensive
+financial information:
+
+\begin{columns}[T]
+\begin{column}{0.33\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  Box
+\item
+  Daloopa
+\item
+  Databricks
+\end{itemize}
+\end{column}
+
+\begin{column}{0.33\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  FactSet
+\item
+  Morningstar
+\item
+  Palantir
+\end{itemize}
+\end{column}
+
+\begin{column}{0.33\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  PitchBook
+\item
+  S\&P Global
+\item
+  Snowflake
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Why mba students should learn about agents}
+\phantomsection\label{why-mba-students-should-learn-about-agents}
+Fortune, 9-14-2025:
+
+PromptQL, an enterprise AI platform created by San Francisco-based
+developer tooling company Hasura, is doling out {\$900-per-hour} wages
+to its engineers tasked with building and deploying AI agents to analyze
+internal company data using large language models (LLMs).
+
+Tanmai Gopal, PromptQL's cofounder and CEO, said ``{MBA types} \ldots{}
+are very strategic thinkers, and they're smart people, but they {don't
+have an intuition for what AI can do}.''
+\end{frame}
+
+\begin{frame}{database agent passes prompt from user to LLM}
+\phantomsection\label{database-agent-passes-prompt-from-user-to-llm}
+\begin{columns}[T]
+\begin{column}{0.6\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/agent_v1.png}}
+\end{column}
+
+\begin{column}{0.4\linewidth}
+May require chatting at this stage to clarify user's request
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{agent passes SQL from LLM to data warehouse}
+\phantomsection\label{agent-passes-sql-from-llm-to-data-warehouse}
+\begin{columns}[T]
+\begin{column}{0.6\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/agent_v2.png}}
+\end{column}
+
+\begin{column}{0.4\linewidth}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Data Warehouse passes response to agent}
+\phantomsection\label{data-warehouse-passes-response-to-agent}
+\begin{columns}[T]
+\begin{column}{0.6\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/agent_v3.png}}
+\end{column}
+
+\begin{column}{0.4\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  Response could be error message
+\item
+  If so, agent should send to LLM for new SQL code
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{agent passes data from warehouse to user}
+\phantomsection\label{agent-passes-data-from-warehouse-to-user}
+\begin{columns}[T]
+\begin{column}{0.6\linewidth}
+\pandocbounded{\includegraphics[keepaspectratio]{images/agent_v4.png}}
+\end{column}
+
+\begin{column}{0.4\linewidth}
+\begin{itemize}
+\tightlist
+\item
+  Could be more things connected
+\item
+  E.g., send data to python engine
+\item
+  Send python output to user
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{What can we do in the classroom?}
+\phantomsection\label{what-can-we-do-in-the-classroom}
+\begin{itemize}
+\tightlist
+\item
+  We can show students how to vibe code apps to automate things
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Getting data
+  \item
+    Financial analysis
+  \item
+    Getting written analysis from AI
+  \item
+    Producing Excel, Word, PowerPoint
+  \end{itemize}
+\item
+  And convert app to chatbot tool
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Tools}
+\phantomsection\label{tools}
+\begin{itemize}
+\tightlist
+\item
+  Point and click: ChatGPT's Custom GPTs
+\item
+  Simplest vibe coding environment: Replit
+\item
+  Julius.ai can build but not run Streamlit apps
+\item
+  Google Colab can build Streamlit apps and deploy via ngrok
+\item
+  Permanent deployment: Koyeb, Render, \ldots{}
+\end{itemize}
+
+How do we learn this stuff to teach it: Ask AI
+\end{frame}
+
+\begin{frame}{Creating openai custom gpt (No Code)}
+\phantomsection\label{creating-openai-custom-gpt-no-code}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Configure}: Name, description, and system prompt
+\item
+  \textbf{Add capabilities}: Web browsing, DALL-E, Code Interpreter
+\item
+  \textbf{Upload knowledge}: Documents for RAG (PDFs, text files)
+\item
+  \textbf{Add actions}: Connect to external APIs (optional)
+\item
+  \textbf{Test \& publish}: Private, link-only, or public to GPT Store
+\end{itemize}
+
+\emph{Requires ChatGPT Plus subscription}
+\end{frame}
+
+\begin{frame}{Plan}
+\phantomsection\label{plan-2}
+✓ Example of what AI can do today
+
+✓ Historical analogues
+
+✓ A course on AI
+
+\begin{enumerate}
+\setcounter{enumi}{3}
+\item
+  Updating existing courses to use AI
+\item
+  Deep dive into Claude Code
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{4. Updating existing courses: what we should teach}
+\phantomsection\label{updating-existing-courses-what-we-should-teach}
+\begin{itemize}
+\tightlist
+\item
+  We generally teach concepts first with slides (or board)
+\item
+  Then show in tools (usually Excel)
+\item
+  Now, there is a next step: chatbots and agents
+\end{itemize}
+
+Teach about implementation in Excel \(\rightarrow\) students build Excel
+models.
+
+Teach about implementation in AI \(\rightarrow\) students build prompts
+or apps
+\end{frame}
+
+\begin{frame}{How we should teach}
+\phantomsection\label{how-we-should-teach}
+\begin{itemize}
+\tightlist
+\item
+  AI is a very effective tutor
+\item
+  We should take advantage of it
+\item
+  {Asking students to chat with chatbots can replace ``Do the assigned
+  reading.''}
+\item
+  Can be assigned before class or in class before slides.
+\end{itemize}
+
+Ask your chatbot to teach you about \ldots{} Be sure to tell it to ask
+you questions to ensure you are understanding.
+\end{frame}
+
+\begin{frame}{Controlling the sources}
+\phantomsection\label{controlling-the-sources}
+\begin{itemize}
+\tightlist
+\item
+  Build RAG (Google's Notebook LM or Custom GPT or \ldots)
+\item
+  If sources are copyrighted, first ask AI for a complete report on the
+  subject, read and edit the AI report, and add to system prompt ``Teach
+  from this report \ldots{}''
+\end{itemize}
+
+But this is probably unnecessary for most topics. The LLMs are much,
+much more reliable than they were a couple of years ago when everyone
+was concerned about hallucinations.
+\end{frame}
+
+\begin{frame}{How can we assess?}
+\phantomsection\label{how-can-we-assess}
+\begin{itemize}[<+->]
+\tightlist
+\item
+  Out-of-class assignments should become ``turn in your chat, its
+  output, and your evaluation of the output'' or ``turn in your app.''
+\item
+  In-class {exams without AI} to ensure students understand concepts
+\item
+  In-class {exams with AI} that are more ambitious than exams today.
+  Cases can become exams with AI assistance.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Plan}
+\phantomsection\label{plan-3}
+✓ Example of what AI can do today
+
+✓ Historical analogues
+
+✓ A course on AI
+
+✓ Updating existing courses to use AI
+
+\begin{enumerate}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Deep dive into Claude Code
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Claude Code}
+\phantomsection\label{claude-code}
+\begin{itemize}
+\tightlist
+\item
+  Terminal based coding agent - also OpenAI Codex, Gemini CLI
+\item
+  Can be used as a plug-in to VS Code, Cursor, Windsurf
+\item
+  Uses standard Anthropic models, but seems to have a great system
+  prompt
+\end{itemize}
+
+\emph{Requires Claude Pro subscription.}
+\end{frame}
+
+\begin{frame}{Capabilities}
+\phantomsection\label{capabilities}
+\begin{itemize}
+\tightlist
+\item
+  Create, edit, copy, move, delete files
+\item
+  Write, edit, and run Python scripts and notebooks
+\item
+  Write, edit, and compile LaTeX documents
+\item
+  Create and edit Word docs and PowerPoint decks
+\item
+  Create GitHub repos and push and launch apps on hosts (Koyeb, Render,
+  \ldots)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Claude Code Demo}
+\phantomsection\label{claude-code-demo}
+\begin{itemize}
+\tightlist
+\item
+  Create a streamlit app for mean-variance optimization. The user will
+  input the number of assets, their means, standard deviations, and
+  correlations and risk-free rate.
+\item
+  Compute and display the tangency portfolio. Run the app.
+\end{itemize}
+
+Then: show the code that calculates the tangency portfolio and explain
+it.
+\end{frame}
+
+\begin{frame}{Claude Code in VS Code, etc.}
+\phantomsection\label{claude-code-in-vs-code-etc.}
+\begin{itemize}
+\tightlist
+\item
+  VS Code, Cursor, Windsurf are full-featured Python and LaTeX IDEs
+\item
+  Examples of Claude Code for LaTeX and Python:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Read this paragraph and suggest improvements .
+  \item
+    Make these global edits \ldots{}
+  \item
+    Do this analysis and generate a figure or LaTeX table and insert it
+    into the document \ldots{}
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Aaron Linsky, CTO, AIA Labs at Bridgewater:}
+\phantomsection\label{aaron-linsky-cto-aia-labs-at-bridgewater}
+We've been developing capabilities powered by Claude since 2023 within
+AIA Labs.
+
+Claude powered the first versions of our {Investment Analyst Assistant},
+which streamlined our analysts' workflow by generating Python code,
+creating data visualizations, and iterating through { complex financial
+analysis tasks with the precision of a junior analyst}.
+\end{frame}
+
+\begin{frame}{Yeyati, Brookings, 2025:}
+\phantomsection\label{yeyati-brookings-2025}
+As AI models begin to handle underwriting, compliance, and asset
+allocation, the traditional architecture of financial work is undergoing
+a fundamental shift.
+
+As job descriptions evolve, so does the definition of financial talent.
+{Excel is no longer a differentiator. Python is fast becoming the new
+Excel. }
+
+But technical skills alone will not cut it. The {most in demand profiles
+today are those that speak both AI and finance}.
+\end{frame}
+
+\begin{frame}{}
+\phantomsection\label{section-2}
+\end{frame}
+
+\begin{frame}{}
+\phantomsection\label{final-slide}
+\pandocbounded{\includegraphics[keepaspectratio]{images/qr_code_slides16x9.png}}
+
+\href{https://fma2025.kerryback.com}{fma2025.kerryback.com}
+\end{frame}
+
+\begin{frame}{Example Data Chatbot (fully vibe coded)}
+\phantomsection\label{example-data-chatbot-fully-vibe-coded}
+\end{frame}
+
+
+
+
+\end{document}

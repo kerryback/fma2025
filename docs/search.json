@@ -361,7 +361,7 @@
     "href": "index.html#section-1",
     "title": "Incorporating AI into Teaching",
     "section": "",
-    "text": "Waldron:\n\nYou can imagine in the past how that would have been done; we would’ve had teams of investment banking analysts working long hours at night to do this.\n\n\nFrom chat to agents\n\nJPMorgan is now early in the next phase of its AI blueprint: It has begun deploying agentic AI to handle complex multistep tasks for employees, according to an internal road map provided by the bank."
+    "text": "A Vibe Coded Chatbot: chat.derivative-securities.org"
   },
   {
     "objectID": "index.html#life-was-the-same-for-40-years",
@@ -831,5 +831,12 @@
     "title": "Incorporating AI into Teaching",
     "section": "Example: RAG Chatbot",
     "text": "Example: RAG Chatbot"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "genai4finance.kerryback.com"
   }
 ]
