@@ -292,7 +292,7 @@ It contains information and instructions for the LLM.
 ## A vibe-coded chatbot
 
 ::: {style="text-align: center; margin-top: 150px;"}
-::: {style="font-size: 2em;"}
+::: {style="font-size: 1.4em;"}
 [chat.derivative-securities.org](https://chat.derivative-securities.org)
 :::
 :::
@@ -410,10 +410,17 @@ May require chatting at this stage to clarify user's request
 :::
 ::::
 
-## data-portal.rice-business.org 
+## A vibe-coded databot
 
+::: {style="text-align: center; margin-top: 150px;"}
+::: {style="font-size: 1.4em;"}
+[data-portal.rice-business.org](https://data-portal.rice-business.org)
+:::
+:::
 
-## Creating openai custom gpt (No Code)
+## {background-iframe="https://data-portal.rice-business.org" background-interactive=true}
+
+## no-code openai custom gpt
 
 - <span class="highlight">Configure</span>: Name, description, and system prompt
 - <span class="highlight">Add capabilities</span>: Web browsing, DALL-E, Code Interpreter
@@ -445,7 +452,7 @@ May require chatting at this stage to clarify user's request
 - Some hoped that schools could move beyond calculation and teach deeper math 
   - That didn't seem to happen either
 
-## Introduction of Personal computers & spreadsheets
+## Personal computers & spreadsheets
 
 1. We added courses on how to use spreadsheets 
 2. We updated existing courses to use spreadsheets
@@ -520,7 +527,7 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 :::
 :::
 
-## How we should teach
+## How show we teach?
 
 - AI is a very effective tutor
 - We should take advantage of it

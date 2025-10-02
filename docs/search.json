@@ -838,5 +838,54 @@
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "genai4finance.kerryback.com"
+  },
+  {
+    "objectID": "index.html#data-background-iframehttpschat.derivative-securities.org-data-background-interactive",
+    "href": "index.html#data-background-iframehttpschat.derivative-securities.org-data-background-interactive",
+    "title": "Incorporating AI into Teaching",
+    "section": "{data-background-iframe=“https://chat.derivative-securities.org” data-background-interactive}",
+    "text": "{data-background-iframe=“https://chat.derivative-securities.org” data-background-interactive}"
+  },
+  {
+    "objectID": "index.html#a-vibe-coded-chatbot",
+    "href": "index.html#a-vibe-coded-chatbot",
+    "title": "Incorporating AI into Teaching",
+    "section": "A vibe-coded chatbot",
+    "text": "A vibe-coded chatbot\n\n\nchat.derivative-securities.org"
+  },
+  {
+    "objectID": "index.html#a-vibe-coded-databot",
+    "href": "index.html#a-vibe-coded-databot",
+    "title": "Incorporating AI into Teaching",
+    "section": "A vibe-coded databot",
+    "text": "A vibe-coded databot\n\n\ndata-portal.rice-business.org"
+  },
+  {
+    "objectID": "index.html#no-code-openai-custom-gpt",
+    "href": "index.html#no-code-openai-custom-gpt",
+    "title": "Incorporating AI into Teaching",
+    "section": "no-code openai custom gpt",
+    "text": "no-code openai custom gpt\n\nConfigure: Name, description, and system prompt\nAdd capabilities: Web browsing, DALL-E, Code Interpreter\nUpload knowledge: Documents for RAG (PDFs, text files)\nAdd actions: Connect to external APIs (optional)\nTest & publish: Private, link-only, or public to GPT Store\n\n\nRequires ChatGPT Plus subscription"
+  },
+  {
+    "objectID": "index.html#personal-computers-spreadsheets",
+    "href": "index.html#personal-computers-spreadsheets",
+    "title": "Incorporating AI into Teaching",
+    "section": "Personal computers & spreadsheets",
+    "text": "Personal computers & spreadsheets\n\nWe added courses on how to use spreadsheets\nWe updated existing courses to use spreadsheets\nWe assess how well students can use spreadsheets (no pencil and paper valuation analyses)\n\n\n\nTeaching how to do finance in spreadsheets is a main goal."
+  },
+  {
+    "objectID": "index.html#how-show-we-teach",
+    "href": "index.html#how-show-we-teach",
+    "title": "Incorporating AI into Teaching",
+    "section": "How show we teach?",
+    "text": "How show we teach?\n\nAI is a very effective tutor\nWe should take advantage of it\nAsking students to chat with chatbots can replace “Do the assigned reading.”\nCan be assigned before class or in class before slides.\n\n\n\nAsk your chatbot to teach you about … Be sure to tell it to ask you questions to ensure you are understanding."
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "genai4finance.kerryback.com"
   }
 ]
