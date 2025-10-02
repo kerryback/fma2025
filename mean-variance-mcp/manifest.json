@@ -1,0 +1,34 @@
+{
+  "manifest_version": "0.2",
+  "name": "mean-variance-optimizer",
+  "display_name": "Mean-Variance Portfolio Optimizer",
+  "version": "0.1.0",
+  "description": "Portfolio optimization using mean-variance analysis. Calculate tangency portfolios and minimum variance portfolios.",
+  "long_description": "This extension provides portfolio optimization tools based on modern portfolio theory. It can calculate the tangency (maximum Sharpe ratio) portfolio and the minimum variance portfolio given asset statistics. Uses numpy for efficient matrix calculations.",
+  "author": {
+    "name": "Kerry Back",
+    "url": "https://fma2025.kerryback.com"
+  },
+  "server": {
+    "type": "python",
+    "entry_point": "server/main.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/server/main.py"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "calculate_tangency_portfolio",
+      "description": "Calculate the tangency (maximum Sharpe ratio) portfolio"
+    },
+    {
+      "name": "calculate_minimum_variance_portfolio",
+      "description": "Calculate the minimum variance portfolio"
+    }
+  ],
+  "keywords": ["finance", "portfolio", "optimization", "mean-variance", "tangency", "Sharpe ratio"],
+  "license": "MIT"
+}
