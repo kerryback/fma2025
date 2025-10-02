@@ -100,7 +100,7 @@ Microsoft Excel introduced for Windows in 1987
 ![](images/coyote11.png){style="max-height:500px; width: auto;"}
 :::
 
-## This is me
+## This is me (and you?)
 
 ::: {style="text-align: center; margin-top: 50px;"}
 ![](images/coyote21.png){style="max-height:500px; width: auto;"}
