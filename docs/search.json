@@ -693,11 +693,11 @@
     "text": "Claude Code Demo\n VSCode with Python and Claude Code extensions:\n\n\nCreate a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio."
   },
   {
-    "objectID": "index.html#adding-a-tool-to-claude-desktop",
-    "href": "index.html#adding-a-tool-to-claude-desktop",
+    "objectID": "index.html#adding-tools-to-chatbots",
+    "href": "index.html#adding-tools-to-chatbots",
     "title": "Incorporating AI into Teaching",
-    "section": "Adding a tool to Claude Desktop",
-    "text": "Adding a tool to Claude Desktop\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots\nRecently improved configuration method for users (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)"
+    "section": "Adding tools to chatbots",
+    "text": "Adding tools to chatbots\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots\nRecently improved configuration method for users (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)\n\n\n\nUsing the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025. Show the first 10 days. Compute daily returns as percent changes. Create a boxplot of the daily returns and provide a link."
   },
   {
     "objectID": "index.html#section-4",
