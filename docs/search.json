@@ -690,7 +690,7 @@
     "href": "index.html#claude-code-demo-1",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n VSCode with Python and Claude Code extensions  ::: {.quote-box} Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Compute and display the tangency portfolio, ASSUMING SHORT SALES ARE ALLOWED. :::"
+    "text": "Claude Code Demo\nVSCode with Python and Claude Code extensions\n\nCreate a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Compute and display the tangency portfolio, ASSUMING SHORT SALES ARE ALLOWED."
   },
   {
     "objectID": "index.html#adding-a-tool-to-claude-desktop",
