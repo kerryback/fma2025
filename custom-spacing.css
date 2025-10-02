@@ -139,42 +139,46 @@ body:not(.light-theme) .reveal section[data-background-iframe] {
 }
 
 /* Full-screen slide style for iframes and videos */
-.reveal section.fullscreen-slide {
+.reveal .slides section.fullscreen-slide {
   padding: 0 !important;
   margin: 0 !important;
-  height: 100% !important;
-  width: 100% !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  top: 0 !important;
+  left: 0 !important;
+  position: absolute !important;
 }
 
-.reveal section.fullscreen-slide h2 {
+.reveal .slides section.fullscreen-slide h2 {
   display: none !important;
 }
 
-.reveal section.fullscreen-slide iframe {
-  display: block !important;
-  width: 100% !important;
-  height: 95vh !important;
-  max-height: 95vh !important;
-  min-height: 95vh !important;
+.reveal .slides section.fullscreen-slide iframe {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  border: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  border: none !important;
 }
 
-.reveal section.fullscreen-slide video {
-  display: block !important;
-  width: 100% !important;
-  height: 95vh !important;
-  max-height: 95vh !important;
-  min-height: 95vh !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
+.reveal .slides section.fullscreen-slide video {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 100vw !important;
+  height: 100vh !important;
   object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Works in both light and dark modes */
-body.light-theme .reveal section.fullscreen-slide,
-body:not(.light-theme) .reveal section.fullscreen-slide {
+body.light-theme .reveal .slides section.fullscreen-slide,
+body:not(.light-theme) .reveal .slides section.fullscreen-slide {
   background: transparent !important;
   padding: 0 !important;
 }
