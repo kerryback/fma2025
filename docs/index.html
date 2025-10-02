@@ -364,7 +364,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>It contains information and instructions for the LLM.</p>
 </div>
 <p><br></p>
-<div style="text-align: center; margin-top: 150px; font-size: 1.2em;">
+<div style="text-align: center; margin-top: 100px; font-size: 1.2em;">
 <p><a href="https://docs.claude.com/en/release-notes/system-prompts#august-5-2025">Anthropic’s System Prompts</a></p>
 </div>
 </section>
@@ -651,8 +651,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <ul>
 <li>AI is a very effective tutor</li>
 <li>We should take advantage of it</li>
-<li><span class="highlight">Asking students to chat with chatbots can replace “Do the assigned reading.”</span></li>
-<li>Can be assigned before class or in class before slides.</li>
+<li>Asking students to <span class="highlight">chat with chatbots can replace “Do the assigned reading.”</span></li>
+<li>Can be assigned before class or in class before slides</li>
 </ul>
 <div class="fragment">
 <div class="quote-box">
@@ -667,7 +667,9 @@ Kerry Back<br>Rice University<br>FMA 2025
 <li>If sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …” <br></li>
 </ul>
 <div class="fragment">
+<div class="quote-box">
 <p>But this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations.</p>
+</div>
 </div>
 </section>
 <section id="plan-3" class="slide level2">
@@ -697,7 +699,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 </section>
 <section id="claude-code-demo-1" class="slide level2">
 <h2>Claude Code Demo</h2>
-<p>VSCode with Python and Claude Code extensions</p>
+<p><br> VSCode with Python and Claude Code extensions:</p>
+<p><br></p>
 <div class="quote-box">
 <p>Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio.</p>
 </div>
@@ -1094,7 +1097,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 
     
 
-    body.light-theme .reveal .backgrounds .slide-background {
+    body.light-theme .reveal .backgrounds .slide-background:not([data-background-image]) {
 
       background-color: #f7f3d3 !important;
 
@@ -1102,15 +1105,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 
     
 
-    /* Override background color for slides with background images */
-
-    body.light-theme .reveal .backgrounds .slide-background[data-background-image] {
-
-      background-color: transparent !important;
-
-    }
-
-    
+    /* Make the content section transparent for background image slides */
 
     body.light-theme .reveal .slides section[data-background-image] {
 
