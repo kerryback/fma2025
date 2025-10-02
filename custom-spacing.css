@@ -115,3 +115,25 @@ body:not(.light-theme) .reveal .quote-box {
   padding: 10px 20px;
   color: inherit;
 }
+
+/* Hide slide backgrounds for iframe background slides */
+.reveal .slide-background.has-dark-background,
+.reveal .slide-background.has-light-background {
+  display: block !important;
+}
+
+/* Make slide backgrounds transparent when there's a background iframe */
+.reveal .slide-background[data-background-iframe] ~ .slide-background-content {
+  background: transparent !important;
+}
+
+/* Ensure the slide content area doesn't have a background on iframe slides */
+body.light-theme .reveal section.has-light-background,
+body.light-theme .reveal section[data-background-iframe] {
+  background: transparent !important;
+}
+
+body:not(.light-theme) .reveal section.has-dark-background,
+body:not(.light-theme) .reveal section[data-background-iframe] {
+  background: transparent !important;
+}
