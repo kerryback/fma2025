@@ -644,7 +644,9 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 
 ## {.fullscreen-slide}
 
+::: {.fragment}
 <img src="columbo_final.gif">
+:::
 
 ## Adding a tool to Claude Desktop
 
