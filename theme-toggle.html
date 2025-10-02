@@ -78,6 +78,16 @@ body.light-theme .reveal .backgrounds .slide-background {
   background-color: #f7f3d3 !important;
 }
 
+/* Override background color for slides with background images */
+body.light-theme .reveal .backgrounds .slide-background[data-background-image] {
+  background-color: transparent !important;
+}
+
+body.light-theme .reveal .slides section[data-background-image] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
 body.light-theme .reveal h1,
 body.light-theme .reveal h2,
 body.light-theme .reveal h3,
