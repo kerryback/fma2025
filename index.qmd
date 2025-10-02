@@ -631,11 +631,7 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 :::
 
 
-## {.fullscreen-slide}
-
-<video controls loop autoplay>
-  <source src="columbo_final.webm" type="video/webm">
-</video>
+## {background-image="columbo_final.gif" background-size="contain" background-repeat="no-repeat" background-position="center"}
 
 ## Adding a tool to Claude Desktop
 
