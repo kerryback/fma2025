@@ -3,16 +3,14 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - slides16x9.qmd
   resources:
     - CNAME
     - .nojekyll
-    - InnovationInTeaching.pdf
-    - columbo_final.gif
-   
+  
+  
 
 website:
-  title: "FMA 2025 AI Presentation"
+  title: "FMA Tutorial"
 
 format:
   html:

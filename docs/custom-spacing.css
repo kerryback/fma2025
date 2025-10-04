@@ -210,6 +210,58 @@ body:not(.light-theme) .reveal section[data-background-image] {
   z-index: 10 !important;
 }
 
+/* Make images (like gifs) fill entire viewport - very high specificity */
+.reveal .slides section.fullscreen-slide img,
+.reveal .slides section.fullscreen-slide img.r-stretch,
+.reveal .slides section.slide.level2.fullscreen-slide img {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  min-width: 100vw !important;
+  min-height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 10 !important;
+  display: block !important;
+}
+
+/* Handle fragments within fullscreen slides */
+.reveal .slides section.fullscreen-slide .fragment {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .slides section.fullscreen-slide .fragment img {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 10 !important;
+  display: block !important;
+}
+
 /* Works in both light and dark modes */
 body.light-theme .reveal .slides section.fullscreen-slide,
 body:not(.light-theme) .reveal .slides section.fullscreen-slide {

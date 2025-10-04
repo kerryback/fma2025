@@ -1,0 +1,14 @@
+<div id="clock-footer" style="position: fixed; bottom: 10px; right: 20px; font-size: 0.8em; color: #93a1a1; z-index: 100;"></div>
+
+<script>
+function updateClock() {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes().toString().padStart(2, '0');
+  const timeString = `${hours}:${minutes}`;
+  document.getElementById('clock-footer').textContent = timeString;
+}
+
+updateClock();
+setInterval(updateClock, 60000); // Update every minute
+</script>

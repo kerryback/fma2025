@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Kerry Back Rice University FMA 2025">
-  <title>FMA 2025 AI Presentation – Incorporating AI  into Teaching</title>
+  <title>FMA Tutorial – Incorporating AI  into Teaching</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -154,9 +154,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 </section>
 <section id="cnbc-on-jpmorgan-9302025-1" class="slide level2">
 <h2>CNBC on JPMorgan, 9/30/2025</h2>
-<div class="quote-box">
-<p>(What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.</p>
-</div>
+<p>Derek Waldron, Chief Analytics Officer: ::: {.quote-box} (What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge. :::</p>
 <div class="quote-box">
 <p>You’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems.</p>
 </div>
@@ -306,7 +304,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>Claude Desktop Demo</h2>
 <div style="font-size: 0.9em};">
 <div class="quote-box">
-<p>Read the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project sales, assets (based on asset turnover projection), depreciation (based on depreciation to assets), cap ex (based on asset and depreciation projections), net working capital (based on net working capital to sales), ebitda (based on ebitda margin), taxes, nopat, and free cash flow. create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.</p>
+<p>Read the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project Sales, Assets (based on asset turnover projection), Depreciation (based on depreciation to assets), Cap Ex (based on asset and depreciation projections), Net Working Capital (based on net working capital to sales),EBITDA (based on EBITDA margin), Taxes, NOPAT, and Free Cash Flow. Create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.</p>
 </div>
 </div>
 <div style="font-size: 0.8em; margin-top: 30px;">
@@ -315,7 +313,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 </section>
 <section id="microsoft-vibe-working-powered-by-anthropic" class="slide level2">
 <h2>Microsoft Vibe Working (powered by Anthropic)</h2>
-<video width="100%" height="575px" controls="">
+<video width="100%" height="560px" controls="">
 <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
 </video>
 </section>
@@ -1267,6 +1265,20 @@ Kerry Back<br>Rice University<br>FMA 2025
 
     });
 
+    </script>
+    <div id="clock-footer" style="position: fixed; bottom: 10px; right: 20px; font-size: 0.8em; color: #93a1a1; z-index: 100;"></div>
+
+    <script>
+    function updateClock() {
+      const now = new Date();
+      const hours = now.getHours();
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const timeString = `${hours}:${minutes}`;
+      document.getElementById('clock-footer').textContent = timeString;
+    }
+
+    updateClock();
+    setInterval(updateClock, 60000); // Update every minute
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {

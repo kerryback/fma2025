@@ -7,6 +7,7 @@ format:
     css: custom-spacing.css
     include-after-body:
       - theme-toggle.html
+      - clock-footer.html
     scrollable: true
     self-contained: false
 resources:
@@ -30,6 +31,7 @@ JPMorgan is now early in the next phase of its AI blueprint: It has begun deploy
 
 ## CNBC on JPMorgan, 9/30/2025
 
+Derek Waldron, Chief Analytics Officer:
 ::: {.quote-box}
 (What we're working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.
 :::
@@ -208,7 +210,7 @@ Claude powered the first versions of our Investment Analyst Assistant, which str
 ::: {.quote-box}
 
 
-Read the uploaded case.  Ignore the valuation method described in the case.  Do a two-stage DCF valuation.  Project sales, assets (based on asset turnover projection), depreciation (based on depreciation to assets), cap ex (based on asset and depreciation projections), net working capital (based on net working capital to sales), ebitda (based on ebitda margin), taxes, nopat, and free cash flow.  create a PowerPoint deck and fully functioning and nicely formatted Excel workbook.  Document your assumptions and your reasons for them.  Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.
+Read the uploaded case.  Ignore the valuation method described in the case.  Do a two-stage DCF valuation.  Project Sales, Assets (based on asset turnover projection), Depreciation (based on depreciation to assets), Cap Ex (based on asset and depreciation projections), Net Working Capital (based on net working capital to sales),EBITDA (based on EBITDA margin), Taxes, NOPAT, and Free Cash Flow.  Create a PowerPoint deck and fully functioning and nicely formatted Excel workbook.  Document your assumptions and your reasons for them.  Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.
 :::
 :::
 
@@ -222,7 +224,7 @@ Read the uploaded case.  Ignore the valuation method described in the case.  Do 
 
 
 
-<video width="100%" height="575px" controls>
+<video width="100%" height="560px" controls>
   <source src="images/microsoft-vibe-working.mp4" type="video/mp4">
 </video>
 
@@ -649,11 +651,16 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 <img src="columbo_final.gif" style="position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; z-index: 10 !important; margin: 0 !important; padding: 0 !important;">
 
 
-## Adding a tool to Claude Desktop
+## Adding tools to chatbots
 
-- Anthropic created Model Context Protocol (MCP) for adding tools to chatbots 
-- Recently improved configuration method for users (mcpb files)
+- Anthropic created Model Context Protocol (MCP) for adding tools to chatbots.  Recently simplified (mcpb files)
 - Demo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)
+
+<br>
+
+::: {.quote-box}
+Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025.  Show the first 10 days.  Compute daily returns as percent changes.  Create a boxplot of the daily returns and provide a link.
+:::
 
 ##
 
