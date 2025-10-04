@@ -83,8 +83,19 @@ body.light-theme .reveal .backgrounds .slide-background[style*="background-image
   background-color: transparent !important;
 }
 
+/* Override for background video slides */
+body.light-theme .reveal .backgrounds .slide-background[data-background-video] {
+  background-color: transparent !important;
+}
+
 /* Make the content section transparent for background image slides */
 body.light-theme .reveal .slides section[data-background-image] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Make the content section transparent for background video slides */
+body.light-theme .reveal .slides section[data-background-video] {
   background: transparent !important;
   background-color: transparent !important;
 }

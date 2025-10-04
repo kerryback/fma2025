@@ -708,7 +708,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio.</p>
 </div>
 </section>
-<section id="section-2" class="slide level2" data-background-video="columbo_final.webm" data-background-video-loop="true" data-background-video-muted="false">
+<section id="section-2" class="slide level2 has-dark-background" data-background-video="columbo_final.webm" data-background-video-loop="true" data-background-video-muted="false">
 <h2></h2>
 </section>
 <section id="adding-tools-to-chatbots" class="slide level2">
@@ -1118,9 +1118,31 @@ Kerry Back<br>Rice University<br>FMA 2025
 
     
 
+    /* Override for background video slides */
+
+    body.light-theme .reveal .backgrounds .slide-background[data-background-video] {
+
+      background-color: transparent !important;
+
+    }
+
+    
+
     /* Make the content section transparent for background image slides */
 
     body.light-theme .reveal .slides section[data-background-image] {
+
+      background: transparent !important;
+
+      background-color: transparent !important;
+
+    }
+
+    
+
+    /* Make the content section transparent for background video slides */
+
+    body.light-theme .reveal .slides section[data-background-video] {
 
       background: transparent !important;
 
