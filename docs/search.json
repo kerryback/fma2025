@@ -364,8 +364,8 @@
     "text": "Adding tools to chatbots\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots. Recently simplified (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)\n\n\n\nUsing the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025. Show the first 10 days. Compute daily returns as percent changes. Create a boxplot of the daily returns and provide a link."
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "genai4finance.kerryback.com"

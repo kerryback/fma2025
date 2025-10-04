@@ -653,6 +653,8 @@ VSCode with Python and Claude Code extensions:
 Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and  risk-free rate.  Only ask for the minimum number of correlations required to compute the correlation matrix.  Assume short sales are allowed. Compute and display the tangency portfolio.
 :::
 
+##
+
 ## {background-video="columbo_final.webm" background-video-loop="true" background-video-muted="false" .has-dark-background}
 
 
