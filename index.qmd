@@ -12,6 +12,7 @@ format:
     self-contained: false
 resources:
   - images/microsoft-vibe-working.mp4
+  - columbo_final.webm
 ---
 
 ## CNBC on JPMorgan, 9/30/2025
@@ -442,7 +443,7 @@ May require chatting at this stage to clarify user's request
 
 ## Claude code demo 
 
-On Windows: Open PowerShell, install Claude Code, type `claude` to run.
+On Windows: Open PowerShell, install Claude Code, type <span class="highlight">claude</span> to run.
 
 ::: {.quote-box}
 Create a streamlit app that takes a user prompt and sends it to OpenAI GPT 4.1 using my OPENAI_API_KEY stored in C:\\users\\kerry\\Dropbox\\.ENV.  In the system prompt, tell GPT to respond in Spanish.  Run the app.
@@ -486,7 +487,7 @@ Use my NGROK_TOKEN in C:\\users\\kerry\\Dropbox\\.ENV to tunnel the app.
    - Studies haven't found an effect 
    - But primary schools still provide practice and assessments in which calculators are not allowed
 - Some hoped that schools could move beyond calculation and teach deeper math 
-  - That didn't seem to happen either
+ 
 
 ## Handheld Calculators
 
