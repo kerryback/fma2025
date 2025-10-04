@@ -657,7 +657,7 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 
 ## {.fullscreen-slide}
 
-<video autoplay muted="false" style="position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; z-index: 10 !important; margin: 0 !important; padding: 0 !important;">
+<video autoplay playsinline controls style="position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; z-index: 10 !important; margin: 0 !important; padding: 0 !important;">
   <source src="columbo_final.webm" type="video/webm">
 </video>
 
