@@ -32,6 +32,7 @@ JPMorgan is now early in the next phase of its AI blueprint: It has begun deploy
 ## CNBC on JPMorgan, 9/30/2025
 
 Derek Waldron, Chief Analytics Officer:
+
 ::: {.quote-box}
 (What we're working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.
 :::
@@ -192,18 +193,25 @@ We've been developing capabilities powered by Claude since 2023 within AIA Labs.
 <br>
 
 ::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating <span class="highlight">Python code</span>, creating <span class="highlight">data visualizations</span>, and iterating through <span class="highlight"> complex financial analysis tasks</span> with the precision of a junior analyst.
+<span class="highlight">Claude</span> powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating <span class="highlight">Python code</span>, creating <span class="highlight">data visualizations</span>, and iterating through <span class="highlight"> complex financial analysis tasks</span> with the precision of a junior analyst.
 :::
 
 
 ## tools for vibe coding
 
-- Chatbots that code: ChatGPT, Gemini, Claude, Julius.ai 
+- Chatbots that code and execute: ChatGPT, Gemini, Claude, Julius.ai 
 - Python environments with AI assistance: Google Colab, VS Code, Cursor, Windsurf
 - All-in-one vibe coder and host: Replit 
 - My current choice: Claude Desktop (python in cloud) and Claude Code (local python)
 
-## Claude Desktop Demo
+## Claude $\rightarrow$ Python $\rightarrow$ Excel 
+<br>
+Claude prompt: Create an Excel file illustrating two-stage DCF valuation.
+
+<br>
+[Claude's Excel File](https://iita2025.kerryback.com/claude-dcf-example.xlsx)
+
+## Claude  Demo
 
 ::: {style="font-size: 0.9em};"}
 
@@ -644,11 +652,7 @@ VSCode with Python and Claude Code extensions:
 Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and  risk-free rate.  Only ask for the minimum number of correlations required to compute the correlation matrix.  Assume short sales are allowed. Compute and display the tangency portfolio.
 :::
 
-## 
-
-## {.fullscreen-slide}
-
-<img src="columbo_final.gif" style="position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; z-index: 10 !important; margin: 0 !important; padding: 0 !important;">
+## {data-background-video="columbo_final.webm" data-background-video-loop="true" data-background-video-muted="false"}
 
 
 ## Adding tools to chatbots

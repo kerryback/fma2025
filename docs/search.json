@@ -11,7 +11,7 @@
     "href": "index.html#cnbc-on-jpmorgan-9302025-1",
     "title": "Incorporating AI into Teaching",
     "section": "CNBC on JPMorgan, 9/30/2025",
-    "text": "CNBC on JPMorgan, 9/30/2025\nDerek Waldron, Chief Analytics Officer: ::: {.quote-box} (What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge. :::\n\nYou’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems.\n\n\nWorkers would shift from being creators of reports or software updates, or “makers” … to “checkers” or managers of AI agents doing that work."
+    "text": "CNBC on JPMorgan, 9/30/2025\nDerek Waldron, Chief Analytics Officer:\n\n(What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.\n\n\nYou’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems.\n\n\nWorkers would shift from being creators of reports or software updates, or “makers” … to “checkers” or managers of AI agents doing that work."
   },
   {
     "objectID": "index.html#mitmedia-labs-state-of-ai-in-business-2025",
@@ -102,14 +102,21 @@
     "href": "index.html#tools-for-vibe-coding",
     "title": "Incorporating AI into Teaching",
     "section": "tools for vibe coding",
-    "text": "tools for vibe coding\n\nChatbots that code: ChatGPT, Gemini, Claude, Julius.ai\nPython environments with AI assistance: Google Colab, VS Code, Cursor, Windsurf\nAll-in-one vibe coder and host: Replit\nMy current choice: Claude Desktop (python in cloud) and Claude Code (local python)"
+    "text": "tools for vibe coding\n\nChatbots that code and execute: ChatGPT, Gemini, Claude, Julius.ai\nPython environments with AI assistance: Google Colab, VS Code, Cursor, Windsurf\nAll-in-one vibe coder and host: Replit\nMy current choice: Claude Desktop (python in cloud) and Claude Code (local python)"
   },
   {
-    "objectID": "index.html#claude-desktop-demo",
-    "href": "index.html#claude-desktop-demo",
+    "objectID": "index.html#claude-rightarrow-python-rightarrow-excel",
+    "href": "index.html#claude-rightarrow-python-rightarrow-excel",
     "title": "Incorporating AI into Teaching",
-    "section": "Claude Desktop Demo",
-    "text": "Claude Desktop Demo\n\n\nRead the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project Sales, Assets (based on asset turnover projection), Depreciation (based on depreciation to assets), Cap Ex (based on asset and depreciation projections), Net Working Capital (based on net working capital to sales),EBITDA (based on EBITDA margin), Taxes, NOPAT, and Free Cash Flow. Create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.\n\n\n\nCurrently requires Claude Max subscription."
+    "section": "Claude \\(\\rightarrow\\) Python \\(\\rightarrow\\) Excel",
+    "text": "Claude \\(\\rightarrow\\) Python \\(\\rightarrow\\) Excel\n Claude prompt: Create an Excel file illustrating two-stage DCF valuation.\n Claude’s Excel File"
+  },
+  {
+    "objectID": "index.html#claude-demo",
+    "href": "index.html#claude-demo",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Demo",
+    "text": "Claude Demo\n\n\nRead the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project Sales, Assets (based on asset turnover projection), Depreciation (based on depreciation to assets), Cap Ex (based on asset and depreciation projections), Net Working Capital (based on net working capital to sales),EBITDA (based on EBITDA margin), Taxes, NOPAT, and Free Cash Flow. Create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.\n\n\n\nCurrently requires Claude Max subscription."
   },
   {
     "objectID": "index.html#microsoft-vibe-working-powered-by-anthropic",
@@ -357,8 +364,8 @@
     "text": "Adding tools to chatbots\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots. Recently simplified (mcpb files)\nDemo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)\n\n\n\nUsing the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025. Show the first 10 days. Compute daily returns as percent changes. Create a boxplot of the daily returns and provide a link."
   },
   {
-    "objectID": "index.html#section-4",
-    "href": "index.html#section-4",
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "genai4finance.kerryback.com"
