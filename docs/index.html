@@ -154,7 +154,10 @@ Kerry Back<br>Rice University<br>FMA 2025
 </section>
 <section id="cnbc-on-jpmorgan-9302025-1" class="slide level2">
 <h2>CNBC on JPMorgan, 9/30/2025</h2>
-<p>Derek Waldron, Chief Analytics Officer: ::: {.quote-box} (What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge. :::</p>
+<p>Derek Waldron, Chief Analytics Officer:</p>
+<div class="quote-box">
+<p>(What we’re working towards is that) every employee will have their own personalized AI assistant; every process is powered by AI agents, and every client experience has an AI concierge.</p>
+</div>
 <div class="quote-box">
 <p>You’ll still have people at the top who are managing and have relationships with clients, but many, many of the processes underneath are now being done by AI systems.</p>
 </div>
@@ -288,20 +291,25 @@ Kerry Back<br>Rice University<br>FMA 2025
 </div>
 <p><br></p>
 <div class="quote-box">
-<p>Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating <span class="highlight">Python code</span>, creating <span class="highlight">data visualizations</span>, and iterating through <span class="highlight"> complex financial analysis tasks</span> with the precision of a junior analyst.</p>
+<p><span class="highlight">Claude</span> powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating <span class="highlight">Python code</span>, creating <span class="highlight">data visualizations</span>, and iterating through <span class="highlight"> complex financial analysis tasks</span> with the precision of a junior analyst.</p>
 </div>
 </section>
 <section id="tools-for-vibe-coding" class="slide level2">
 <h2>tools for vibe coding</h2>
 <ul>
-<li>Chatbots that code: ChatGPT, Gemini, Claude, Julius.ai</li>
+<li>Chatbots that code and execute: ChatGPT, Gemini, Claude, Julius.ai</li>
 <li>Python environments with AI assistance: Google Colab, VS Code, Cursor, Windsurf</li>
 <li>All-in-one vibe coder and host: Replit</li>
 <li>My current choice: Claude Desktop (python in cloud) and Claude Code (local python)</li>
 </ul>
 </section>
-<section id="claude-desktop-demo" class="slide level2">
-<h2>Claude Desktop Demo</h2>
+<section id="claude-rightarrow-python-rightarrow-excel" class="slide level2">
+<h2>Claude <span class="math inline">\(\rightarrow\)</span> Python <span class="math inline">\(\rightarrow\)</span> Excel</h2>
+<p><br> Claude prompt: Create an Excel file illustrating two-stage DCF valuation.</p>
+<p><br> <a href="https://iita2025.kerryback.com/dcf_analysis_example.xlsx">Claude’s Excel File</a></p>
+</section>
+<section id="claude-demo" class="slide level2">
+<h2>Claude Demo</h2>
 <div style="font-size: 0.9em};">
 <div class="quote-box">
 <p>Read the uploaded case. Ignore the valuation method described in the case. Do a two-stage DCF valuation. Project Sales, Assets (based on asset turnover projection), Depreciation (based on depreciation to assets), Cap Ex (based on asset and depreciation projections), Net Working Capital (based on net working capital to sales),EBITDA (based on EBITDA margin), Taxes, NOPAT, and Free Cash Flow. Create a PowerPoint deck and fully functioning and nicely formatted Excel workbook. Document your assumptions and your reasons for them. Put years in columns and items in rows throughout the Excel workbook and PowerPoint deck.</p>
@@ -703,12 +711,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>Create a Jupyter notebook for mean-variance optimization. Prompt the user for the number of assets, their means, standard deviations, and correlations and risk-free rate. Only ask for the minimum number of correlations required to compute the correlation matrix. Assume short sales are allowed. Compute and display the tangency portfolio.</p>
 </div>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section-2" class="slide level2" data-background-video="columbo_final.webm" data-background-video-loop="true" data-background-video-muted="false">
 <h2></h2>
-</section>
-<section id="section-3" class="slide level2 fullscreen-slide">
-<h2></h2>
-<p><img src="columbo_final.gif" style="position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; object-fit: contain !important; z-index: 10 !important; margin: 0 !important; padding: 0 !important;"></p>
 </section>
 <section id="adding-tools-to-chatbots" class="slide level2">
 <h2>Adding tools to chatbots</h2>
@@ -721,7 +725,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025. Show the first 10 days. Compute daily returns as percent changes. Create a boxplot of the daily returns and provide a link.</p>
 </div>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-3" class="slide level2">
 <h2></h2>
 <div style="text-align: center; margin-top: 100px;">
 <p><img data-src="images/genai4finance_qr.png" style="max-height: 500px; width: auto;"></p>
@@ -1266,7 +1270,7 @@ Kerry Back<br>Rice University<br>FMA 2025
     });
 
     </script>
-    <div id="clock-footer" style="position: fixed; bottom: 10px; right: 80px; font-size: 0.9em; background-color: black; color: #ff0000; padding: 4px 8px; border: 2px solid #333; border-radius: 4px; font-family: 'Courier New', monospace; font-weight: bold; z-index: 100;"></div>
+    <div id="clock-footer" style="position: fixed; bottom: 10px; right: 80px; font-size: 0.9em; background-color: gray; color: black; padding: 4px 8px; border: 2px solid #333; border-radius: 4px; font-family: 'Courier New', monospace; font-weight: bold; z-index: 100;"></div>
 
     <script>
     function updateClock() {
