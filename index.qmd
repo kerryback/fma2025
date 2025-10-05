@@ -679,10 +679,11 @@ Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 20
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 120px;
+  font-size: 180px;
   font-weight: bold;
   font-family: 'Arial Black', sans-serif;
   color: #FFD700;
+  white-space: nowrap;
   text-shadow:
     0 0 20px #FFD700,
     0 0 40px #FFA500,
@@ -690,8 +691,11 @@ Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 20
     4px 4px 0px rgba(0,0,0,0.8),
     8px 8px 0px rgba(0,0,0,0.6),
     12px 12px 0px rgba(0,0,0,0.4);
-  animation: fadeToDistance 6s ease-in-out forwards;
   z-index: 100;
+}
+
+.the-end-slide.present .the-end-animation {
+  animation: fadeToDistance 6s ease-in-out forwards;
 }
 
 @keyframes fadeToDistance {
