@@ -682,32 +682,30 @@ Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 20
   font-size: 120px;
   font-weight: bold;
   font-family: 'Arial Black', sans-serif;
-  color: #fff;
+  color: #FFD700;
   text-shadow:
-    4px 4px 0px #000,
-    8px 8px 0px rgba(0,0,0,0.5),
-    12px 12px 0px rgba(0,0,0,0.3),
-    16px 16px 0px rgba(0,0,0,0.2);
-  animation: fadeToBlack 5s ease-in-out forwards;
+    0 0 20px #FFD700,
+    0 0 40px #FFA500,
+    0 0 60px #FF8C00,
+    4px 4px 0px rgba(0,0,0,0.8),
+    8px 8px 0px rgba(0,0,0,0.6),
+    12px 12px 0px rgba(0,0,0,0.4);
+  animation: fadeToDistance 6s ease-in-out forwards;
   z-index: 100;
 }
 
-@keyframes fadeToBlack {
+@keyframes fadeToDistance {
   0% {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
-  60% {
+  30% {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
-  90% {
-    opacity: 0.1;
-    transform: translate(-50%, -50%) scale(1.5);
-  }
   100% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(2);
+    transform: translate(-50%, -50%) scale(0.1);
   }
 }
 
