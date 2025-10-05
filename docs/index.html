@@ -725,7 +725,63 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025. Show the first 10 days. Compute daily returns as percent changes. Create a boxplot of the daily returns and provide a link.</p>
 </div>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-4" class="slide level2 the-end-slide">
+<h2></h2>
+<div class="the-end-animation">
+THE END
+</div>
+<style>
+.the-end-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif;
+  color: #fff;
+  text-shadow:
+    4px 4px 0px #000,
+    8px 8px 0px rgba(0,0,0,0.5),
+    12px 12px 0px rgba(0,0,0,0.3),
+    16px 16px 0px rgba(0,0,0,0.2);
+  animation: fadeToBlack 5s ease-in-out forwards;
+  z-index: 100;
+}
+
+@keyframes fadeToBlack {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  90% {
+    opacity: 0.1;
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+}
+
+.the-end-slide {
+  background: #000 !important;
+}
+
+body.light-theme .reveal .slides section.the-end-slide {
+  background: #000 !important;
+}
+
+.reveal .slide-background.the-end-slide {
+  background: #000 !important;
+}
+</style>
+</section>
+<section id="section-5" class="slide level2">
 <h2></h2>
 <div style="text-align: center; margin-top: 100px;">
 <p><img data-src="images/genai4finance_qr.png" style="max-height: 500px; width: auto;"></p>

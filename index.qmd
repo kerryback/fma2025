@@ -669,6 +669,61 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025.  Show the first 10 days.  Compute daily returns as percent changes.  Create a boxplot of the daily returns and provide a link.
 :::
 
+## {.the-end-slide}
+
+<div class="the-end-animation">THE END</div>
+
+<style>
+.the-end-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif;
+  color: #fff;
+  text-shadow:
+    4px 4px 0px #000,
+    8px 8px 0px rgba(0,0,0,0.5),
+    12px 12px 0px rgba(0,0,0,0.3),
+    16px 16px 0px rgba(0,0,0,0.2);
+  animation: fadeToBlack 5s ease-in-out forwards;
+  z-index: 100;
+}
+
+@keyframes fadeToBlack {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  90% {
+    opacity: 0.1;
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+}
+
+.the-end-slide {
+  background: #000 !important;
+}
+
+body.light-theme .reveal .slides section.the-end-slide {
+  background: #000 !important;
+}
+
+.reveal .slide-background.the-end-slide {
+  background: #000 !important;
+}
+</style>
+
 ##
 
 ::: {style="text-align: center; margin-top: 100px;"}
