@@ -671,65 +671,6 @@ Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 20
 
 ##
 
-## {.the-end-slide}
-
-<div class="the-end-animation">THE END</div>
-
-<style>
-.the-end-animation {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 180px;
-  font-weight: bold;
-  font-family: 'Arial Black', sans-serif;
-  color: #FFD700;
-  white-space: nowrap;
-  text-shadow:
-    0 0 20px #FFD700,
-    0 0 40px #FFA500,
-    0 0 60px #FF8C00,
-    4px 4px 0px rgba(0,0,0,0.8),
-    8px 8px 0px rgba(0,0,0,0.6),
-    12px 12px 0px rgba(0,0,0,0.4);
-  z-index: 100;
-}
-
-.the-end-slide.present .the-end-animation {
-  animation: fadeToDistance 6s ease-in-out forwards;
-}
-
-@keyframes fadeToDistance {
-  0% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  30% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.1);
-  }
-}
-
-.the-end-slide {
-  background: #000 !important;
-}
-
-body.light-theme .reveal .slides section.the-end-slide {
-  background: #000 !important;
-}
-
-.reveal .slide-background.the-end-slide {
-  background: #000 !important;
-}
-</style>
-
-##
-
 ::: {style="text-align: center; margin-top: 100px;"}
 ![](images/genai4finance_qr.png){style="max-height: 500px; width: auto;"}
 :::
