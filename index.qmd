@@ -669,6 +669,8 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2025.  Show the first 10 days.  Compute daily returns as percent changes.  Create a boxplot of the daily returns and provide a link.
 :::
 
+##
+
 ## {.the-end-slide}
 
 <div class="the-end-animation">THE END</div>
