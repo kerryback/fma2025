@@ -214,7 +214,7 @@ Claude prompt: Create an Excel file illustrating two-stage DCF valuation.
 
 ## Claude  Demo
 
-::: {style="font-size: 0.9em};"}
+::: {style="font-size: 0.93em"}
 
 ::: {.quote-box}
 
