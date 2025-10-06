@@ -142,6 +142,11 @@ body:not(.light-theme) .reveal section[data-background-video] {
   background: transparent !important;
 }
 
+/* Hide empty h2 tags on background-video slides */
+.reveal section[data-background-video] h2:empty {
+  display: none !important;
+}
+
 /* Ensure slide background is visible for background-image slides */
 .reveal .slide-background[data-background-image] {
   opacity: 1 !important;
