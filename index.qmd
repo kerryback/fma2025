@@ -661,12 +661,12 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 ## Adding tools to chatbots
 
 - Anthropic created Model Context Protocol (MCP) for adding tools to chatbots.  Recently simplified (mcpb files)
-- Demo of Claude Desktop with Rice Business Stock Market Data Portal (vibe coded MCP server)
+- Demo of Claude Code with Rice Business Stock Market Data Portal (vibe coded MCP server)
 
 <br>
 
 ::: {.quote-box}
-Using the Rice data portal, get adjusted closing prices for AAPL since Jan 1, 2010.  Filter to keep only the last price in each month.  Divide each price by the price 11 months prior, subtract 1, and then lag by one month.  This is t-12 through t-2 momentum.  Plot it.  
+Get adjusted closing prices for AAPL since Jan 1, 2025 from the Rice stock database.  Plot the data.    
 :::
 
 ##
