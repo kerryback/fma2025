@@ -147,6 +147,12 @@ body:not(.light-theme) .reveal section[data-background-video] {
   display: none !important;
 }
 
+/* Force all content to be transparent on background-video slides in light mode */
+body.light-theme .reveal section[data-background-video] * {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
 /* Ensure slide background is visible for background-image slides */
 .reveal .slide-background[data-background-image] {
   opacity: 1 !important;
