@@ -655,7 +655,7 @@ Create a Jupyter notebook for mean-variance optimization. Prompt the user for th
 
 ##
 
-## {background-video="columbo_final.webm" .has-dark-background}
+## {background-video="columbo_final.webm"}
 
 
 ## Adding tools to chatbots
