@@ -361,7 +361,7 @@
     "href": "index.html#adding-tools-to-chatbots",
     "title": "Incorporating AI into Teaching",
     "section": "Adding tools to chatbots",
-    "text": "Adding tools to chatbots\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots. Recently simplified (mcpb files)\nDemo of Claude Code with Rice Business Stock Market Data Portal (vibe coded MCP server)\n\n\n\nGet adjusted closing prices for AAPL since Jan 1, 2025 from the Rice stock database. Plot the data."
+    "text": "Adding tools to chatbots\n\nAnthropic created Model Context Protocol (MCP) for adding tools to chatbots. Recently simplified (mcpb files)\nDemo of Claude Code with Rice Business Stock Market Data Portal (vibe coded MCP server)\n\n\n\nGet tsla’s roe by quarter on a trailing 4-quarters basis for Q1 2020 through Q3 2025 from the Rice stock database. Also, get tsla’s adjusted closing price starting in Jan 1 2020. Filter to keep only end-of-quarter prices. Plot the roe and filtered price series in the same figure, with roe on the left y-axis and price on the right y-axis."
   },
   {
     "objectID": "index.html#section-4",
