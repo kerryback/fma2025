@@ -22,7 +22,6 @@ downloads/
 *.avi
 *.mov
 *.gif
-*.webm
 
 # IDE
 .vscode/
