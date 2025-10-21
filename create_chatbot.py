@@ -11,9 +11,9 @@ ax.set_xlim(-1, 11)
 ax.set_ylim(-1, 8)
 ax.axis('off')
 
-# Set light gray background
-fig.patch.set_facecolor('lightgray')
-ax.set_facecolor('lightgray')
+# Set transparent background
+fig.patch.set_alpha(0.0)
+ax.set_facecolor('none')
 
 # Node positions (remove DW)
 nodes = {
@@ -121,6 +121,6 @@ draw_curved_arrow_with_label(ax, (nodes['App'][0] - 1, nodes['App'][1] - 0.3),
 # Save the figure
 plt.tight_layout()
 plt.savefig('docs/images/chatbot.png', dpi=300, bbox_inches='tight',
-            facecolor='lightgray', edgecolor='none')
+            facecolor='none', edgecolor='none', transparent=True)
 print("Chatbot diagram created as chatbot.png")
 plt.close()

@@ -15,19 +15,22 @@ ax.axis('off')
 fig.patch.set_alpha(0.0)
 ax.set_facecolor('none')
 
-# Node positions
+# Vertical shift to center the diagram (shift up by 1.0)
+y_shift = 1.0
+
+# Node positions - MCP directly below LLM, DW to the right at same level
 nodes = {
-    'User': (1, 4),
-    'Agent': (5, 4),
-    'LLM': (9, 4),
-    'DW': (5, 1)
+    'User': (1, 4 + y_shift),
+    'LLM': (5, 4 + y_shift),
+    'MCP': (5, 1 + y_shift),
+    'DW': (9, 1 + y_shift)
 }
 
 # Node colors
 node_colors = {
     'User': 'lightyellow',
-    'Agent': 'lightgreen',
     'LLM': 'lightyellow',
+    'MCP': 'lightgreen',
     'DW': 'lightyellow'
 }
 
@@ -46,7 +49,7 @@ for name, (x, y) in nodes.items():
         ax.text(x, y - 0.2, 'Warehouse', ha='center', va='center', fontsize=18, fontweight='bold')
     else:
         # Single-line text for other nodes
-        width = 1.5 if name == 'Agent' else 1.7
+        width = 1.5 if name == 'MCP' else 1.7
         height = 0.6
         rect = FancyBboxPatch((x - width/2, y - height/2), width, height,
                               boxstyle="round,pad=0.3",
@@ -57,9 +60,9 @@ for name, (x, y) in nodes.items():
     node_patches[name] = rect
 
 # Three color scheme
-color1 = '#1E90FF'  # Blue for steps 1 & 2
-color2 = '#32CD32'  # Green for steps 3 & 4
-color3 = '#FF6347'  # Red/Tomato for steps 5 & 6
+color1 = '#1E90FF'  # Blue for User <-> LLM
+color2 = '#32CD32'  # Green for LLM <-> MCP
+color3 = '#FF6347'  # Red/Tomato for MCP <-> DW
 
 # Helper function to create curved arrow
 def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
@@ -96,65 +99,49 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
 
 # Draw arrows with proper curves and labels
 
+# 1. User -> LLM (above)
+draw_curved_arrow(ax, (nodes['User'][0] + 1.1, nodes['User'][1] + 0.3),
+                 (nodes['LLM'][0] - 1.1, nodes['LLM'][1] + 0.3),
+                 color1, curve_height=0.5, above=True)
 
-# 3. LLM -> Agent (below)
+# 2. LLM -> User (below)
 draw_curved_arrow(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.3),
-                 (nodes['Agent'][0] + 1, nodes['Agent'][1] - 0.3),
-                 color2, curve_height=0.5, above=False)
+                 (nodes['User'][0] + 1.1, nodes['User'][1] - 0.3),
+                 color1, curve_height=0.5, above=False)
 
-# 4. Agent -> DW (now curves right, was position 5)
-start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.55)
-end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.6)
+# 3. LLM -> MCP (curves right)
+start_3 = (nodes['LLM'][0] + 0.5, nodes['LLM'][1] - 0.55)
+end_3 = (nodes['MCP'][0] + 0.5, nodes['MCP'][1] + 0.5)
+arrow_3 = FancyArrowPatch(start_3, end_3,
+                         #connectionstyle="arc3,rad=-0.3",
+                         arrowstyle='->',
+                         color=color2, linewidth=3.5, mutation_scale=25, zorder=1)
+ax.add_patch(arrow_3)
+
+# 4. MCP -> LLM (curves left)
+start_4 = (nodes['MCP'][0] - 0.5, nodes['MCP'][1] + 0.55)
+end_4 = (nodes['LLM'][0] - 0.5, nodes['LLM'][1] - 0.5)
 arrow_4 = FancyArrowPatch(start_4, end_4,
                          #connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
                          color=color2, linewidth=3.5, mutation_scale=25, zorder=1)
 ax.add_patch(arrow_4)
 
-# 5. DW -> Agent (now curves left, was position 4)
-start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.65)
-end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.5)
-arrow_5 = FancyArrowPatch(start_5, end_5,
-                         #connectionstyle="arc3,rad=-0.3",
-                         arrowstyle='->',
-                         color=color3, linewidth=3.5, mutation_scale=25, zorder=1)
-ax.add_patch(arrow_5)
+# 5. MCP -> DW (above, horizontal)
+draw_curved_arrow(ax, (nodes['MCP'][0] + 1, nodes['MCP'][1] + 0.3),
+                 (nodes['DW'][0] - 1.25, nodes['DW'][1] + 0.3),
+                 color3, curve_height=0.5, above=True)
 
-# 6. Agent -> User (below)
-draw_curved_arrow(ax, (nodes['Agent'][0] - 1, nodes['Agent'][1] - 0.3),
-                 (nodes['User'][0] + 1.1, nodes['User'][1] - 0.3),
+# 6. DW -> MCP (below, horizontal)
+draw_curved_arrow(ax, (nodes['DW'][0] - 1.25, nodes['DW'][1] - 0.3),
+                 (nodes['MCP'][0] + 1, nodes['MCP'][1] - 0.3),
                  color3, curve_height=0.5, above=False)
 
-# Draw blue arrows (User -> Agent and Agent -> LLM)
-# User -> Agent (curved upward blue arrow - negative rad for upward curve)
-arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1.1, nodes['User'][1]+0.3),
-                                 (nodes['Agent'][0] - 1, nodes['Agent'][1]+0.3),
-                                 #connectionstyle="arc3,rad=-0.4",
-                                 arrowstyle='->',
-                                 color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
-ax.add_patch(arrow_user_app)
-
-# Agent -> LLM (curved upward blue arrow - negative rad for upward curve)
-arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]+0.3),
-                                (nodes['LLM'][0] - 1.1, nodes['LLM'][1]+0.3),
-                                #connectionstyle="arc3,rad=-0.4",
-                                arrowstyle='->',
-                                color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
-ax.add_patch(arrow_app_llm)
-
-
-
-# Create legend
-legend_elements = [
-    mpatches.Patch(color=color1, label='Step 1: Prompt/System Prompt'),
-    mpatches.Patch(color=color2, label='Step 2: SQL Query'),
-    mpatches.Patch(color=color3, label='Step 3: Data Response')
-]
-# ax.legend(handles=legend_elements, loc='upper right', fontsize=16, frameon=True, fancybox=True, shadow=True)
+# Legend removed - diagram is now centered
 
 # Save the figure
 plt.tight_layout()
-plt.savefig('docs/images/agent_v4.png', dpi=300, bbox_inches='tight',
+plt.savefig('mcp_v2.png', dpi=300, bbox_inches='tight',
             facecolor='none', edgecolor='none', transparent=True)
-print("Diagram created as docs/images/agent_v4.png")
+print("Diagram created as mcp_v2.png")
 plt.close()
